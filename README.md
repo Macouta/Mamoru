@@ -1,4 +1,4 @@
----
+<!-- ---
 home: true
 heroImage: /hero.png
 heroText: Hero Title
@@ -13,11 +13,9 @@ features:
 - title: Performant
   details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
 footer: MIT Licensed | Copyright © 2018-present Evan You
----
+--- -->
 # Hello Mamoru
 
 graph of commits to pages with vuepress-plugin-git-log  
-"vuepress-plugin-clean-urls": "^1.0.3",
-    "vuepress-plugin-git-log": "^1.0.1",
-    "vuepress-plugin-img-lazy": "^1.0.0",
-    "vuepress-plugin-sitemap": "^2.3.0"
+
+# Salut
