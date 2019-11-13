@@ -1,5 +1,5 @@
 {
-  "name": "Mamoru",
+  "name": "mamoru",
   "description": "",
   "version": "1.0.0",
   "repository": {
@@ -19,7 +19,5 @@
   },
   "devDependencies": {
     "vuepress": "^1.2.0"
-  },
-  "dependencies": {
   }
 }
