@@ -2,6 +2,9 @@ module.exports = {
     base: "/",
     title: "Mamoru - ",
     description: "wiki",
+    themeConfig: {
+        navbar: false
+      },
     configureWebpack: {
         resolve: {
           alias: {
