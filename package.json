@@ -19,6 +19,12 @@
     "forestry:preview": "vuepress dev docs -p 8080 --host 0.0.0.0"
   },
   "devDependencies": {
+    "cz-conventional-changelog": "^3.0.2",
     "vuepress": "^1.2.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
