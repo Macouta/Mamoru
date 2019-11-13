@@ -3,7 +3,12 @@ new_page_extension: md
 auto_deploy: false
 admin_path: 
 webhook_url: 
-sections: 
+sections:
+- type: document
+  path: docs/README.md
+  label: Home
+  match: "**/*"
+  read_only: false
 upload_dir: assets
 public_path: "/assets"
 front_matter_path: ''
