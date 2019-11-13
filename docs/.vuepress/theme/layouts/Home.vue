@@ -26,7 +26,7 @@ export default {
         cameraRadius: 150,
         radius: 50
       },
-      clockParts: new THREE.Group(),
+      clockParts: null,
       clock: null,
       texture: null,
       uniforms: {
@@ -47,6 +47,7 @@ export default {
         this.canvas.style.position = "fixed";
         this.canvas.style.bottom = "1rem";
         this.canvas.style.right = "1rem";
+        this.clockParts = new THREE.Group();
         // document.body.appendChild(this.canvas)
       }
       getTime() {
