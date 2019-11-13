@@ -1,16 +1,19 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: 
+admin_path: ''
 webhook_url: 
-sections: 
+sections:
+- type: document
+  path: docs/README.md
+  label: Home
 upload_dir: assets
 public_path: "/assets"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
 build:
-  preview_output_directory: ".vuepress/dist"
+  preview_output_directory: docs/.vuepress/dist
   install_dependencies_command: npm install
   preview_docker_image: node:10
   mount_path: "/srv"
