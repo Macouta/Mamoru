@@ -15,7 +15,8 @@
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "forestry:preview": "vuepress dev docs -p 8080 -h 0.0.0.0"
   },
   "devDependencies": {
     "vuepress": "^1.2.0"
