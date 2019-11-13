@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "name": "mamoru",
   "description": "",
@@ -20,38 +19,13 @@
     "forestry:preview": "vuepress dev docs -p 8080 --host 0.0.0.0"
   },
   "devDependencies": {
+    "@endemolshinegroup/cz-github": "^1.0.5",
     "cz-conventional-changelog": "^3.0.2",
     "vuepress": "^1.2.0"
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "./node_modules/@endemolshinegroup/cz-github"
     }
   }
 }
-=======
-{
-  "name": "mamoru",
-  "description": "",
-  "version": "1.0.0",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Macouta/Mamoru.git"
-  },
-  "homepage": "https://github.com/Macouta/Mamoru.git",
-  "keywords": [],
-  "author": "Thomas Blanc",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Macouta/Mamoru/issues"
-  },
-  "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
-    "forestry:preview": "vuepress dev docs -p 8080 --host 0.0.0.0"
-  },
-  "devDependencies": {
-    "vuepress": "^1.2.0"
-  }
-}
->>>>>>> 8ef54005c6d5782f4bf016ca9c0fdc373c767c05
