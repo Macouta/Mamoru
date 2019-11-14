@@ -4,15 +4,15 @@ auto_deploy: false
 admin_path: "/"
 webhook_url: 
 sections:
+- type: document
+  path: docs/README.md
+  label: Home
 - type: directory
   path: docs/references
   label: references
   create: documents
   match: "**/*"
-  new_doc_ext: ".md"
-- type: document
-  path: docs/README.md
-  label: Home
+  new_doc_ext: md
 upload_dir: assets
 public_path: "/assets"
 front_matter_path: ''
