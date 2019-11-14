@@ -6,8 +6,8 @@ module.exports = {
     //sidebar
     sidebar: [
       '/',
-      '/journal/',
-      ['/contact', 'Explicit link text']
+      '/journal',
+      '/references/'
     ],
 
     //navbar
@@ -15,7 +15,7 @@ module.exports = {
       { text: 'Home', link: '/' },
       { text: 'Journal', link: '/journal/' }
     ],
-    
+
     // search
     search: false,
 
@@ -43,12 +43,13 @@ module.exports = {
       }
     }
   },
-  plugins: {
-    'vuepress-plugin-clean-urls':
-    {
-      normalSuffix: '/',
-      indexSuffix: '/',
-      notFoundPath: '/404',
-    },
-  },
+  plugins: [
+    ['vuepress-plugin-clean-urls',
+      {
+        normalSuffix: '/',
+        indexSuffix: '/',
+        notFoundPath: '/404',
+      }],
+    'img-lazy'
+  ],
 }

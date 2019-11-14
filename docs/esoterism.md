@@ -1,12 +1,13 @@
 ---
-title: videogames
-metaTitle: Video Games
+title: Esoterism
 description:
 meta:
     - name: description
       content:
     - name: keywords
       content:
-    - name: robots
-      content: 
 ---
+
+# Esoterism
+## Palo Santo
+## Pontifical

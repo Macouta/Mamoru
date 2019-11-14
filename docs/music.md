@@ -1,12 +1,14 @@
 ---
-title: videogames
-metaTitle: Video Games
+title: Music
 description:
 meta:
     - name: description
       content:
     - name: keywords
       content:
-    - name: robots
-      content: 
 ---
+# Music
+
+## Long Play
+
+<grid-music/>
