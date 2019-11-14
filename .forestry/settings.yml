@@ -4,6 +4,12 @@ auto_deploy: false
 admin_path: "/"
 webhook_url: 
 sections:
+- type: directory
+  path: docs/references
+  label: references
+  create: documents
+  match: "**/*"
+  new_doc_ext: ".md"
 - type: document
   path: docs/README.md
   label: Home
