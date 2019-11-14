@@ -27,5 +27,8 @@
     "commitizen": {
       "path": "./node_modules/@endemolshinegroup/cz-github"
     }
+  },
+  "dependencies": {
+    "vuepress-plugin-clean-urls": "^1.0.3"
   }
 }

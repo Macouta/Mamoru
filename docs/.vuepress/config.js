@@ -5,6 +5,9 @@ module.exports = {
   themeConfig: {
     //sidebar
     sidebar: [
+      '/',
+      '/journal/',
+      ['/contact', 'Explicit link text']
     ],
 
     //navbar
@@ -45,23 +48,7 @@ module.exports = {
     {
       normalSuffix: '/',
       indexSuffix: '/',
-      notFoundPath: '/404.html',
-    },
-    'sitemap':
-    {
-      hostname: 'http://macouta.fr'
-    },
-    'git-log': {
-      additionalProps: {
-        subject: '%s',
-        authorEmail: '%ae',
-      },
+      notFoundPath: '/404',
     },
   },
-  // themeConfig: {
-  //     search: false,
-  //     nav: [
-  //         { text: 'Home', link: '/' },
-  //     ]
-  // }
 }
