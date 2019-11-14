@@ -1,39 +1,46 @@
 <template>
-  <div v-for="vinyl in vinylesList">
-    {{ vinyl.basic_informations.tittle }}
+  <div>
+    <div v-for="vinyl in vinylesList">
+      <img :src="vinyl.basic_information.thumb" />
+      {{ vinyl.basic_information.title }} - {{ vinyl.basic_information.artists[0].name}}
+      </div>
   </div>
 </template>
 
 <script>
-import axios from 'axios'
+import axios from "axios";
 
-const DISCOGS_API_KEY = 'AJeazJvGtLIhqDtGMtNXsBatKwOsTgyyRXuESsEc'
-const BASE_URL = 'https://api.discogs.com/'
-const URL_FOLDER = '/users/Macouta/collection/folders/0/releases'
+const DISCOGS_API_KEY = "Discogs token=AJeazJvGtLIhqDtGMtNXsBatKwOsTgyyRXuESsEc";
+const BASE_URL = "https://api.discogs.com/";
 
 export default {
-    name: 'grid-music',
-    data() {
-        return {
-            vinyles: []
-        }
-    },
-    computed: {
+  name: "grid-music",
+  data() {
+    return {
+      vinyles: []
+    };
+  },
+  props: [
+    'url'
+  ],
+  computed: {
     vinylesList() {
-        return this.vinyles
+      return this.vinyles;
     }
-    },
+  },
   mounted() {
     axios
       .request({
         baseURL: BASE_URL,
         method: "get",
-        url: URL_FOLDER,
+        url: this.$props.url,
         headers: {
           Authorization: DISCOGS_API_KEY
         }
       })
-      .then(response => (this.vinyles = response.data.releases));
+      .then(response => {
+        this.vinyles = this.$props.url === "/users/Macouta/wants" ? response.data.wants : response.data.releases
+      });
   }
 };
 </script>
