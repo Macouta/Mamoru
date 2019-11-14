@@ -1,0 +1,26 @@
+---
+label: standard
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: metaTitle
+  label: metaTitle
+- type: text
+  name: lang
+  label: lang
+- type: text
+  name: description
+  label: description
+- type: field_group_list
+  name: meta
+  label: meta
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: text
+    name: content
+    label: content
