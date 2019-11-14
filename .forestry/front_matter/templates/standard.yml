@@ -1,6 +1,6 @@
 ---
-label: adobe
-hide_body: false
+label: standard
+hide_body: true
 fields:
 - type: text
   name: title
