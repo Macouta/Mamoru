@@ -24,5 +24,3 @@ fields:
   - type: text
     name: content
     label: content
-pages:
-- docs/references/cc.md
