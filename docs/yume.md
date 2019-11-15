@@ -1,5 +1,5 @@
 ---
-title: Dream Journal
+title: Yume
 description: ''
 meta:
 - name: ''
@@ -18,7 +18,7 @@ English readers, **_Yume_** is written in my native language, french. The state 
 
 ### The second step is to understand
 
-* [http://www.attrape-songes.com/forum/acces-libre-vous-etes-nouveaux/t6761/](http://www.attrape-songes.com/forum/acces-libre-vous-etes-nouveaux/t6761/ "Lexique")
+* [http://www.attrape-songes.com/forum/acces-libre-vous-etes-nouveaux/t6761/]("Lexique")
 * [http://www.attrape-songes.com/forum/les-methodes-pour-devenir-lucide/t344/](http://www.attrape-songes.com/forum/les-methodes-pour-devenir-lucide/t344/ "http://www.attrape-songes.com/forum/les-methodes-pour-devenir-lucide/t344/")
 * [http://www.attrape-songes.com/forum/les-methodes-pour-devenir-lucide/mild-ou-mnemonic-induction-of-lucid-dreams/](http://www.attrape-songes.com/forum/les-methodes-pour-devenir-lucide/mild-ou-mnemonic-induction-of-lucid-dreams/ "MILD")
 * [http://www.attrape-songes.com/forum/les-methodes-pour-devenir-lucide/wbtb-ou-wake-back-to-bed/](http://www.attrape-songes.com/forum/les-methodes-pour-devenir-lucide/wbtb-ou-wake-back-to-bed/ "http://www.attrape-songes.com/forum/les-methodes-pour-devenir-lucide/wbtb-ou-wake-back-to-bed/") : Plus un trucs qui permet de placer les meilleurs conditions de RL. 
