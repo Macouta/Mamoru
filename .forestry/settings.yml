@@ -4,6 +4,13 @@ auto_deploy: false
 admin_path: "/"
 webhook_url: 
 sections:
+- type: document
+  path: docs/README.md
+  label: Home
+- type: document
+  path: docs/.vuepress/config.js
+  label: Config
+  match: "**/*"
 - type: directory
   path: docs
   label: Docs
@@ -11,9 +18,6 @@ sections:
   match: "**/*"
   templates:
   - standard
-- type: document
-  path: docs/README.md
-  label: Home
 - type: directory
   path: docs/references
   label: references
