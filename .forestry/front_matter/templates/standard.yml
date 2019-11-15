@@ -6,12 +6,6 @@ fields:
   name: title
   label: title
 - type: text
-  name: metaTitle
-  label: metaTitle
-- type: text
-  name: lang
-  label: lang
-- type: text
   name: description
   label: description
 - type: field_group_list
