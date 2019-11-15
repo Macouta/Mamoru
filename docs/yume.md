@@ -6,7 +6,6 @@ meta:
   content: ''
 
 ---
-
 # Yume
 
 **_Yume_** is a dream journal. A place dedicaced to the **unconsciousness** and the **madness** of the mind.
