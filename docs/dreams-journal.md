@@ -1,5 +1,5 @@
 ---
-title: Dreams Journal
+title: Dream Journal
 description: ''
 meta:
 - name: ''
