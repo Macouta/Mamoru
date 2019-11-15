@@ -12,7 +12,7 @@ meta:
 ## Long Play
 
 ### Collection
-<grid-music url="/users/Macouta/collection/folders/0/releases" />
+<discogs-grid url="/users/Macouta/collection/folders/0/releases" />
 
 ### Wantlist
-<grid-music url="/users/Macouta/wants" />
+<discogs-grid url="/users/Macouta/wants" />
