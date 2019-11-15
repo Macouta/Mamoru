@@ -7,9 +7,11 @@ sections:
 - type: document
   path: docs/README.md
   label: Home
-- type: document
-  path: docs/.vuepress/config.js
+- type: directory
+  path: docs/.vuepress
   label: Config
+  create: none
+  match: "**/*"
 - type: directory
   path: docs
   label: Docs
