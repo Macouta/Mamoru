@@ -1,16 +1,17 @@
 <template>
   <div>
-    <div v-for="vinyl in vinylesList">
+    <div class="vinyl-wrapper" v-for="vinyl in vinylesList">
       <img :src="vinyl.basic_information.thumb" />
-      {{ vinyl.basic_information.title }} - {{ vinyl.basic_information.artists[0].name}}
-      </div>
+      <div>{{ vinyl.basic_information.title }} - {{ vinyl.basic_information.artists[0].name}}</div>
+    </div>
   </div>
 </template>
 
 <script>
 import axios from "axios";
 
-const DISCOGS_API_KEY = "Discogs token=AJeazJvGtLIhqDtGMtNXsBatKwOsTgyyRXuESsEc";
+const DISCOGS_API_KEY =
+  "Discogs token=AJeazJvGtLIhqDtGMtNXsBatKwOsTgyyRXuESsEc";
 const BASE_URL = "https://api.discogs.com/";
 
 export default {
@@ -20,9 +21,7 @@ export default {
       vinyles: []
     };
   },
-  props: [
-    'url'
-  ],
+  props: ["url"],
   computed: {
     vinylesList() {
       return this.vinyles;
@@ -39,7 +38,10 @@ export default {
         }
       })
       .then(response => {
-        this.vinyles = this.$props.url === "/users/Macouta/wants" ? response.data.wants : response.data.releases
+        this.vinyles =
+          this.$props.url === "/users/Macouta/wants"
+            ? response.data.wants
+            : response.data.releases;
       });
   }
 };
