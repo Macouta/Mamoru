@@ -19,12 +19,6 @@ sections:
   match: "**/*"
   templates:
   - standard
-- type: directory
-  path: docs/references
-  label: references
-  create: documents
-  match: "**/*"
-  new_doc_ext: md
 upload_dir: assets
 public_path: "/assets"
 front_matter_path: ''
