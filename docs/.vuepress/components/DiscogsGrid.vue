@@ -15,7 +15,7 @@ const DISCOGS_API_KEY =
 const BASE_URL = "https://api.discogs.com/";
 
 export default {
-  name: "grid-music",
+  name: "discogs-grid",
   data() {
     return {
       vinyles: []
