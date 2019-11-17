@@ -4,16 +4,16 @@ module.exports = {
   description: "wiki",
   themeConfig: {
     //sidebar
-    sidebar: [
-      '/',
-      '/journal',
-      '/references/'
-    ],
+    // sidebar: [
+    //   '/',
+    //   '/journal',
+    //   '/references/'
+    // ],
 
     //navbar
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Journal', link: '/journal/' }
+      { text: 'Journal', link: '/journal/' },
+      { text: 'Yume', link: '/yume/' }
     ],
 
     // search
@@ -25,12 +25,6 @@ module.exports = {
     docsDir: 'docs',
     // branch of the doc:
     docsBranch: 'master',
-
-    // defaults to false, set to true to enable
-    editLinks: true,
-    // custom text for edit link. Defaults to "Edit this page"
-    editLinkText: 'Help us improve this page!',
-
     // default value is true. Allows to hide next page links on all pages
     nextLinks: false,
     // default value is true. Allows to hide prev page links on all pages
