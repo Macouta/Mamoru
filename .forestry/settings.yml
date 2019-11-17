@@ -19,6 +19,16 @@ sections:
   match: "**/*"
   templates:
   - standard
+- type: heading
+  label: Journaux
+- type: document
+  path: docs/journal.md
+  label: Journal
+  match: "**/*"
+- type: document
+  path: docs/yume.md
+  label: Yume
+  match: "**/*"
 upload_dir: assets
 public_path: "/assets"
 front_matter_path: ''
