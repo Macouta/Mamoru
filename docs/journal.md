@@ -16,3 +16,4 @@ meta:
 4. Build [Yume](./yume) journal
 5. Remix Senden Baska - Kit Sebastian
 6. Cosplay Team Rocket for the Freemusic Festival
+7. Travail graphisme long métrage julienrenard4@gmail.com
