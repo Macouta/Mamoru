@@ -1,5 +1,5 @@
 module.exports = {
-  base: "/mamoru/",
+  base: "",
   title: "Mamoru",
   description: "wiki",
   themeConfig: {
