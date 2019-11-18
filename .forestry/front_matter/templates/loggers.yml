@@ -26,3 +26,5 @@ fields:
     max: 
   label: logs
   description: list of logs
+pages:
+- docs/journal.md
