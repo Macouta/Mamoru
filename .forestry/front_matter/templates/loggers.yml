@@ -18,3 +18,11 @@ fields:
   - type: text
     name: content
     label: content
+- name: logs
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: logs
+  description: list of logs
