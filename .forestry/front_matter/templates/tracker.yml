@@ -12,11 +12,6 @@ fields:
   config:
     required: false
   label: description
-- name: layout
-  type: text
-  config:
-    required: false
-  label: layout
 - name: projects
   type: field_group_list
   fields:
