@@ -20,30 +20,30 @@ fields:
 - name: projects
   type: field_group_list
   fields:
-  - name: project_title
+  - name: title
     type: text
     config:
       required: false
-    label: project_title
-  - name: project_description
+    label: title
+  - name: description
     type: text
     config:
       required: false
-    label: project_description
-  - name: project_tags
+    label: description
+  - name: tags
     type: tag_list
     default: []
-    label: project_tags
-  - name: project_url
+    label: tags
+  - name: url
     type: text
     config:
       required: false
-    label: project_url
-  - name: project_source
+    label: url
+  - name: source
     type: text
     config:
       required: false
-    label: project_source
+    label: source
   config:
     min: 
     max: 
