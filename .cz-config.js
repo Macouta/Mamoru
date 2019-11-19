@@ -4,7 +4,7 @@ module.exports = {
     types: [
         { value: 'doc',     name: '@doc       A content change in a markdown file' },
         { value: 'log',     name: '@log       Input a log in one of the journals', },
-        { value: 'style',   name: '@style     Changes that do not affect the meaning of the code\n', },
+        { value: 'style',   name: '@style     Changes that do not affect the meaning of the code', },
         { value: 'feat',    name: '@feat      A new feature with component' },
         { value: 'fix',     name: '@fix       A bug fix' },
         { value: 'refactor',name: '@refactor  A code change that neither fixes a bug nor adds a feature' },
