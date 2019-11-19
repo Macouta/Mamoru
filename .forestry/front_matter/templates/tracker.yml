@@ -39,3 +39,5 @@ fields:
     max: 
     labelField: 
   label: projects
+pages:
+- docs/projects.md
