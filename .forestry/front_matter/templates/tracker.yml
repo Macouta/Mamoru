@@ -1,0 +1,41 @@
+---
+label: tracker
+hide_body: true
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+- name: description
+  type: text
+  config:
+    required: false
+  label: description
+- name: projects
+  type: field_group_list
+  fields:
+  - name: project_title
+    type: text
+    config:
+      required: false
+    label: project_title
+  - name: project_description
+    type: text
+    config:
+      required: false
+    label: project_description
+  - name: project_tags
+    type: tag_list
+    default: []
+    label: project_tags
+  - name: project_url
+    type: text
+    config:
+      required: false
+    label: project_url
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: projects
