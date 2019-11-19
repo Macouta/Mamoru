@@ -34,6 +34,11 @@ fields:
     config:
       required: false
     label: project_url
+  - name: project_source
+    type: text
+    config:
+      required: false
+    label: project_source
   config:
     min: 
     max: 
