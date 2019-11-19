@@ -7,6 +7,11 @@ projects:
   project_tags: []
   project_url: macouta.fr
   project_source: https://github.com/Macouta/Mamoru
-layout: ProjectLayout.vue
+  title: ''
+  description: ''
+  tags: []
+  url: ''
+  source: ''
+layout: ''
 
 ---
