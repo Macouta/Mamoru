@@ -30,9 +30,8 @@ sections:
 - type: heading
   label: Trackers
 - type: document
-  path: docs/tracker.md
+  path: docs/projects.md
   label: Projects
-  match: "**/*"
 upload_dir: assets
 public_path: "/assets"
 front_matter_path: ''
