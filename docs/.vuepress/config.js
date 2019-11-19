@@ -2,6 +2,9 @@ module.exports = {
   base: "",
   title: "Mamoru",
   description: "wiki",
+  head: [
+    ['link', { rel: 'icon', href: "/favicon.ico"}]
+  ],
   themeConfig: {
     //sidebar
     // sidebar: [
@@ -13,7 +16,8 @@ module.exports = {
     //navbar
     nav: [
       { text: 'Journal', link: '/journal/' },
-      { text: 'Yume', link: '/yume/' }
+      { text: 'Yume', link: '/yume/' },
+      { text: 'About', link: '/about/' }
     ],
 
     // search
@@ -31,12 +35,6 @@ module.exports = {
     prevLinks: false,
 
   },
-  configureWebpack: {
-    resolve: {
-      alias: {
-      }
-    }
-  },
   plugins: [
     ['vuepress-plugin-clean-urls',
       {
@@ -44,6 +42,5 @@ module.exports = {
         indexSuffix: '/',
         notFoundPath: '/404',
       }],
-    'img-lazy'
   ],
 }
