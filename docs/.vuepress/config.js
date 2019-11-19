@@ -6,12 +6,8 @@ module.exports = {
     ['link', { rel: 'icon', href: "/favicon.ico"}]
   ],
   themeConfig: {
-    //sidebar
-    // sidebar: [
-    //   '/',
-    //   '/journal',
-    //   '/references/'
-    // ],
+    sidebar: 'auto',
+    displayAllHeaders: true,
 
     //navbar
     nav: [
