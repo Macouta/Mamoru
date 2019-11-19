@@ -7,11 +7,12 @@ projects:
   project_tags: []
   project_url: macouta.fr
   project_source: https://github.com/Macouta/Mamoru
-  title: ''
-  description: ''
-  tags: []
-  url: ''
-  source: ''
+  title: Mamoru
+  description: Mamoru is the environement used to maintain this wiki.
+  tags:
+  - vuejs
+  url: macouta.fr
+  source: https://github.com/Macouta/Mamoru
 layout: ''
 
 ---
