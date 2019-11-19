@@ -1,7 +1,4 @@
 ---
-title: Journal
-description: ''
-meta:
 - name: description
   content: ''
 - name: keywords
@@ -12,7 +9,6 @@ logs:
 - build Projects tracker [XXIIVV Tracker](https://wiki.xxiivv.com/#tracker)
 - Build [Yume](./yume) journal
 - Cosplay Team Rocket for the Freemusic Festival
-- Travail graphisme long métrage julienrenard4@gmail.com
-
+- Travail graphisme long métrage julienrenard4@gmail.com"
 ---
 # Journal

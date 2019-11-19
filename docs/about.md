@@ -7,5 +7,5 @@ meta:
     - name: keywords
       content:
 ---
-
+[CV](/cv/)
 ![me](/assets/img/me.jpg)
