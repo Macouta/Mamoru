@@ -27,4 +27,5 @@ fields:
   label: logs
   description: list of logs
 pages:
+- docs/yume.md
 - docs/journal.md
