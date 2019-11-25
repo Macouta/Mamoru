@@ -9,7 +9,7 @@ logs:
   description: 'Je ne me souviens de rien mais c''est la première fois depuis longtemps
     que j''ai quelque chose : j''me suis rendu compte et j''ai réussi à y penser au
     réveil. J''ai eu un fragment extrement flou et je me suis rendu compte que c''était
-    un bout de reve'
+    un bout de rêve.'
 
 ---
 # Yume
