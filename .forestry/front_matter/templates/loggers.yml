@@ -35,6 +35,11 @@ fields:
     config:
       required: false
     label: Description
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
   config:
     min: 
     max: 
