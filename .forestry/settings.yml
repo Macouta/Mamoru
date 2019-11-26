@@ -5,6 +5,10 @@ admin_path: "/"
 webhook_url: 
 sections:
 - type: document
+  path: docs/notebook.md
+  label: Notebook
+  match: "**/*"
+- type: document
   path: docs/README.md
   label: Home
 - type: directory
