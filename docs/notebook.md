@@ -12,4 +12,4 @@ meta:
 
 The **Notebook** contains everything not sorted yet on the wiki.
 
-Musée des arts numériques
+Museum of digital 
