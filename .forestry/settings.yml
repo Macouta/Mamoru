@@ -5,9 +5,6 @@ admin_path: "/"
 webhook_url: 
 sections:
 - type: document
-  path: docs/notebook.md
-  label: Notebook
-- type: document
   path: docs/README.md
   label: Home
 - type: directory
@@ -35,6 +32,15 @@ sections:
 - type: document
   path: docs/projects.md
   label: Projects
+- type: heading
+  label: Doc
+- type: document
+  path: docs/notebook.md
+  label: Notebook
+- type: document
+  path: docs/yume-doc.md
+  label: Yume Doc
+  match: "**/*"
 upload_dir: assets
 public_path: "/assets"
 front_matter_path: ''
