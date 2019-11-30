@@ -10,4 +10,4 @@ projects:
   project_source: https://github.com/Macouta/Mamoru
 ---
 
-<tracker-list :projects="this.$page.frontmatter" />
+<tracker-list />
