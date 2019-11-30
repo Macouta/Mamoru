@@ -19,12 +19,32 @@ fields:
     name: content
     label: content
 - name: logs
-  type: list
+  type: field_group_list
+  fields:
+  - name: date
+    type: datetime
+    label: Date
+    description: ''
+    config:
+      required: false
+      date_format: 
+      time_format: 
+      display_utc: false
+  - name: description
+    type: text
+    config:
+      required: false
+    label: Description
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
   config:
-    use_select: false
     min: 
     max: 
-  label: logs
-  description: list of logs
+    labelField: 
+  label: Logs
 pages:
+- docs/yume.md
 - docs/journal.md
