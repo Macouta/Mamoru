@@ -12,14 +12,24 @@ html, body
   background-color $backgroundColor
 
 body
-  font-family -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif
+  font-family "CourierPrimeCode", sans-serif
   -webkit-font-smoothing antialiased
   -moz-osx-font-smoothing grayscale
   font-size 16px
   color $textColor
+  height 100vh
+  
+.page-wrapper
+  margin:50px
 
 .page
-  padding-left $sidebarWidth
+  background-color $pageColor
+  flex 1 1 auto  
+  height 100vh
+  postion absolute
+  bottom 20
+  border-radius 5px
+
 
 .navbar
   position fixed
@@ -27,7 +37,6 @@ body
   top 0
   left 0
   right 0
-  height $navbarHeight
   background-color $backgroundColor
   box-sizing border-box
 
@@ -41,17 +50,17 @@ body
   display none
 
 .sidebar
-  font-size 16px
+  display flex
+  flex-direction: column
+  justify-content: flex-end
+  font-size 14px
   background-color $backgroundColor
-  width $sidebarWidth
-  position fixed
+  max-width $sidebarWidth
+  flex 1 1 auto
   z-index 10
-  margin 0
-  top $navbarHeight
-  left 0
-  bottom 0
   box-sizing border-box
-  overflow-y auto
+  height 100vh
+
 
 {$contentClass}:not(.custom)
   @extend $wrapper
@@ -176,6 +185,7 @@ th, td
   padding .6em 1em
 
 .theme-container
+  display flex
   &.sidebar-open
     .sidebar-mask
       display: block

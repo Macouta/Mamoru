@@ -6,17 +6,13 @@ module.exports = {
     ['link', { rel: 'icon', href: "/favicon.ico"}]
   ],
   themeConfig: {
-    sidebar: 'auto',
-    displayAllHeaders: true,
-
-    //navbar
-    nav: [
-      { text: 'Journal', link: '/journal/' },
-      { text: 'Yume', link: '/yume/' },
-      { text: 'About', link: '/about/' }
-    ],
-
     // search
+    sidebar: [
+      '/',
+      'cv',
+      'yume',
+      'yume-doc'
+    ],
     search: false,
 
     // if your docs are in a different repo from your main project:
