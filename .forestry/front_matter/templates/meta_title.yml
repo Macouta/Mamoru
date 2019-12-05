@@ -1,4 +1,18 @@
 ---
 label: meta_title
 hide_body: true
-fields: []
+fields:
+- name: name
+  type: text
+  config:
+    required: false
+  label: name
+  description: name
+  hidden: true
+  default: title
+- name: content
+  type: text
+  config:
+    required: false
+  label: content
+  description: meta title (useful for SEO).
