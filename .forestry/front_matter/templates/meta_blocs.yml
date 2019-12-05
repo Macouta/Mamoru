@@ -1,4 +1,22 @@
 ---
-label: meta_blocs
+label: meta_description
 hide_body: true
-fields: []
+fields:
+- name: name
+  type: text
+  config:
+    required: false
+  label: name
+  description: meta tag name attribute
+  hidden: true
+  default: name
+- name: content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: content
+  description: meta description (useful for SEO).
