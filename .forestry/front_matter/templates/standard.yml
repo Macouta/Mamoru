@@ -25,15 +25,42 @@ fields:
   hidden: true
   default: test
 - name: meta
-  type: blocks
+  type: field_group
+  config: {}
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: name
+    description: truc
+  - name: content
+    type: text
+    config:
+      required: false
+    label: content
+  - name: selectfield_test
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: selectfield test
+  - name: textarea_test
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: textarea_test
   label: meta
-  template_types:
-  - meta_blocs
-  - meta_title
-  - meta_robots
-  config:
-    min: 
-    max: 
 pages:
 - docs/yume-doc.md
 - docs/yume.md
