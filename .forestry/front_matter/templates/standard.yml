@@ -17,29 +17,6 @@ fields:
   name: description
   label: description
   description: page description, displayed under the title in search engines.
-- name: meta
-  type: field_group
-  config: {}
-  fields:
-  - name: meta_title
-    type: include
-    config: {}
-    template: meta_title
-    label: meta title
-    description: meta title (useful for SEO).
-  - name: meta_description
-    type: include
-    config: {}
-    template: meta_blocs
-    label: meta_description
-    description: meta description (useful for SEO).
-  - name: meta_robots
-    type: include
-    config: {}
-    template: meta_robots
-    label: meta_robots
-    description: meta robots (useful for SEO).
-  label: meta
 - name: test
   type: text
   config:
@@ -47,6 +24,16 @@ fields:
   label: test
   hidden: true
   default: test
+- name: meta
+  type: blocks
+  label: meta
+  template_types:
+  - meta_blocs
+  - meta_title
+  - meta_robots
+  config:
+    min: 
+    max: 
 pages:
 - docs/yume-doc.md
 - docs/yume.md
