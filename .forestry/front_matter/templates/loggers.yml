@@ -21,6 +21,11 @@ fields:
 - name: logs
   type: field_group_list
   fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
   - name: date
     type: datetime
     label: Date
@@ -35,11 +40,6 @@ fields:
     config:
       required: false
     label: Description
-  - name: title
-    type: text
-    config:
-      required: false
-    label: Title
   config:
     min: 
     max: 
