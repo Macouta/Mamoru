@@ -39,18 +39,6 @@ fields:
     config:
       required: false
     label: content
-  - name: selectfield_test
-    type: select
-    default: []
-    config:
-      required: false
-      options: []
-      source:
-        type: simple
-        section: 
-        file: 
-        path: 
-    label: selectfield test
   - name: textarea_test
     type: textarea
     default: ''
@@ -60,6 +48,10 @@ fields:
       schema:
         format: markdown
     label: textarea_test
+  - name: tag_test
+    type: tag_list
+    default: []
+    label: tag test
   label: meta
 pages:
 - docs/yume-doc.md
