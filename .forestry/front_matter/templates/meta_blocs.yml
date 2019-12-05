@@ -9,7 +9,7 @@ fields:
   label: name
   description: meta tag name attribute
   hidden: true
-  default: name
+  default: description
 - name: content
   type: textarea
   default: ''
