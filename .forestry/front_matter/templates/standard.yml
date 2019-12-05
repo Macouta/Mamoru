@@ -41,5 +41,6 @@ fields:
     description: meta robots (useful for SEO).
   label: meta
 pages:
+- docs/yume-doc.md
 - docs/yume.md
 - docs/yume.md

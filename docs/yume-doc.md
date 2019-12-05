@@ -1,3 +1,12 @@
++++
+description = ""
+lang = ""
+title = ""
+[meta]
+content = []
+name = ""
+
++++
 ## [Lexique](http://www.attrape-songes.com/forum/acces-libre-vous-etes-nouveaux/t6761/)
 
 ### Remémoration onirique
@@ -49,4 +58,4 @@ Rare mais géniale. A ce stade là soit y’a eu un WILD, soit j’ai réussi à
 
   [http://www.attrape-songes.com/forum/exploration-de-l-univers-onirique/t101/](http://www.attrape-songes.com/forum/exploration-de-l-univers-onirique/t101/ "http://www.attrape-songes.com/forum/exploration-de-l-univers-onirique/t101/") Les objectifs des gens du fofo si vous voulez avoir de l'inspiration !
 
-*The first step is to remember, The second step is to understand, The third is to act* 
+*The first step is to remember, The second step is to understand, The third is to act*
