@@ -40,6 +40,13 @@ fields:
     label: meta_robots
     description: meta robots (useful for SEO).
   label: meta
+- name: test
+  type: text
+  config:
+    required: false
+  label: test
+  hidden: true
+  default: test
 pages:
 - docs/yume-doc.md
 - docs/yume.md
