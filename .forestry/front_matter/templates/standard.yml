@@ -17,13 +17,28 @@ fields:
   label: description
   description: page description, displayed under the title in search engines.
 - name: meta
-  type: blocks
+  type: field_group
+  config: {}
+  fields:
+  - name: meta_title
+    type: include
+    config: {}
+    template: meta_title
+    label: meta title
+    description: meta title (useful for SEO).
+  - name: meta_description
+    type: include
+    config: {}
+    template: meta_blocs
+    label: meta_description
+    description: meta description (useful for SEO).
+  - name: meta_robots
+    type: include
+    config: {}
+    template: meta_robots
+    label: meta_robots
+    description: meta robots (useful for SEO).
   label: meta
-  template_types: []
-  config:
-    min: 
-    max: 
-  description: Meta tags (useful for SEO).
 pages:
 - docs/yume.md
 - docs/yume.md
