@@ -5,6 +5,7 @@ fields:
 - type: text
   name: title
   label: title
+  description: page title. Displayed in search engines and in browser tabs.
 - name: lang
   type: text
   config:
@@ -14,30 +15,15 @@ fields:
 - type: text
   name: description
   label: description
-- type: field_group_list
-  name: meta
+  description: page description, displayed under the title in search engines.
+- name: meta
+  type: blocks
   label: meta
-  fields:
-  - type: text
-    name: name
-    label: name
-    default: robots
-    hidden: true
-  - name: content
-    type: select
-    default: []
-    config:
-      required: false
-      options:
-      - index
-      - follow
-      - noindex
-      source:
-        type: simple
-        section: 
-        file: 
-        path: 
-    label: content
+  template_types: []
+  config:
+    min: 
+    max: 
+  description: Meta tags (useful for SEO).
 pages:
 - docs/yume.md
 - docs/yume.md
