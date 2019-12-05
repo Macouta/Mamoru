@@ -1,4 +1,17 @@
 ---
 label: meta_robots
 hide_body: true
-fields: []
+fields:
+- name: name
+  type: text
+  config:
+    required: false
+  label: name
+  description: name
+  hidden: true
+  default: robots
+- name: content
+  type: tag_list
+  default: []
+  label: content
+  description: meta robots (useful for SEO).
