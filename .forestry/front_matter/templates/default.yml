@@ -18,54 +18,27 @@ fields:
   label: description
   description: page description, displayed under the title in search engines.
 - name: meta
-  type: field_group
-  config: {}
+  type: field_group_list
   fields:
-  # META TITLE
   - name: name
     type: text
     config:
       required: false
     label: name
-    hidden: true
-    default: title
+    description: meta tags name attribute. It can be "title", "description", "robots",
+      etc...
   - name: content
     type: text
     config:
       required: false
-    label: title
-    description: meta title (useful for SEO).
-  # META DESCRIPTION
-  - name: name
-    type: text
-    config:
-      required: false
-    label: name
-    hidden: true
-    default: description
-  - name: content
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: false
-      schema:
-        format: markdown
-    label: description
-    description: meta description (useful for SEO).
-  # META ROBOTS
-  - name: name
-    type: text
-    config:
-      required: false
-    label: name
-    hidden: true
-    default: robots
-  - name: content
-    type: tag_list
-    default: []
-    label: robots
-    description: meta robots (useful for SEO) (follow, nofollow, index, noindex, none).
+    description: meta tags content attribute.
+    label: content
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: meta
+  description: Meta tags (useful for SEO).
 pages:
-- docs/yume-doc.md
 - docs/yume.md
+- docs/yume-doc.md
