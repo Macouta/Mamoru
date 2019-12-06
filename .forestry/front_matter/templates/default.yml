@@ -17,13 +17,6 @@ fields:
   name: description
   label: description
   description: page description, displayed under the title in search engines.
-- name: test
-  type: text
-  config:
-    required: false
-  label: test
-  hidden: true
-  default: test
 - name: meta
   type: field_group
   config: {}
