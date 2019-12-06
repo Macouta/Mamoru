@@ -28,18 +28,29 @@ fields:
   type: field_group
   config: {}
   fields:
+  # META TITLE
   - name: name
     type: text
     config:
       required: false
     label: name
-    description: truc
+    hidden: true
+    default: title
   - name: content
     type: text
     config:
       required: false
-    label: content
-  - name: textarea_test
+    label: title
+    description: meta title (useful for SEO).
+  # META DESCRIPTION
+  - name: name
+    type: text
+    config:
+      required: false
+    label: name
+    hidden: true
+    default: description
+  - name: content
     type: textarea
     default: ''
     config:
@@ -47,13 +58,21 @@ fields:
       wysiwyg: false
       schema:
         format: markdown
-    label: textarea_test
-  - name: tag_test
+    label: description
+    description: meta description (useful for SEO).
+  # META ROBOTS
+  - name: name
+    type: text
+    config:
+      required: false
+    label: name
+    hidden: true
+    default: robots
+  - name: content
     type: tag_list
     default: []
-    label: tag test
-  label: meta
+    label: robots
+    description: meta robots (useful for SEO) (follow, nofollow, index, noindex, none).
 pages:
 - docs/yume-doc.md
-- docs/yume.md
 - docs/yume.md
