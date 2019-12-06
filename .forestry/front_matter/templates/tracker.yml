@@ -2,16 +2,11 @@
 label: tracker
 hide_body: true
 fields:
-- name: title
-  type: text
-  config:
-    required: false
-  label: title
-- name: description
-  type: text
-  config:
-    required: false
-  label: description
+- name: default
+  type: include
+  config: {}
+  template: default
+  label: default
 - name: projects
   type: field_group_list
   fields:
