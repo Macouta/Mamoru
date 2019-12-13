@@ -7,4 +7,6 @@ meta: []
 ---
 ## Bosner
 
-* Faber Castell black 199 M
+* Uni pin ball 5 feutres 0.1 a 0.8 
+* Sketch/Notebook
+* Criterium 7
