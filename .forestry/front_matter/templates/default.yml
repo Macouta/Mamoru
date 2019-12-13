@@ -40,4 +40,5 @@ fields:
   label: meta
   description: Meta tags (useful for SEO).
 pages:
+- docs/buy.md
 - docs/yume-doc.md
