@@ -18,7 +18,7 @@ sections:
   create: all
   match: "**/*"
   templates:
-  - standard
+  - default
 - type: heading
   label: Journaux
 - type: document
