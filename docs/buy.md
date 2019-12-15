@@ -16,6 +16,6 @@ meta: []
 
 ## Selfcare
 
-* Huile de coco
-* Huile de jojoba
+* Huile de jojoba/camilia
+* Aloe vera
 * Après shampoing cool (cf [doc d'Ali](https://docs.google.com/document/d/1ytLBMSFu3r4TVndnzIWVcdCMqMU_E1F1MtZm_O9iywU/edit?usp=drivesdk "Doc haircare Ali"))
