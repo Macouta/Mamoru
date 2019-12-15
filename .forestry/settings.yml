@@ -27,6 +27,10 @@ sections:
 - type: document
   path: docs/yume.md
   label: Yume
+- type: document
+  path: docs/buy.md
+  label: Buy list
+  match: "**/*"
 - type: heading
   label: Trackers
 - type: document
