@@ -13,6 +13,7 @@ meta: []
 * Sketch/Notebook
 * Criterium 7
 * Rodia dotPad
+* Kit de couture
 
 ## Selfcare
 
