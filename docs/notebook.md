@@ -17,4 +17,5 @@ The **Notebook** contains everything not sorted yet on the wiki.
 * Ranger la chambre
 * Faire des warhammers
 * Faire de la guitare
-* Lire 
+* Lire
+* 
