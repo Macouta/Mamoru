@@ -18,4 +18,3 @@ The **Notebook** contains everything not sorted yet on the wiki.
 * Faire des warhammers
 * Faire de la guitare
 * Lire
-* 
