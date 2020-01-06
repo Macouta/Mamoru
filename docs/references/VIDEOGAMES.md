@@ -1,12 +1,16 @@
 ---
 title: videogames
 metaTitle: Video Games
-description:
+description: 
 meta:
-    - name: description
-      content:
-    - name: keywords
-      content:
-    - name: robots
-      content: 
+- name: description
+  content: 
+- name: keywords
+  content: 
+- name: robots
+  content: 
+
 ---
+## Video games
+
+## Outer wild
