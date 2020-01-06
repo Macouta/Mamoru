@@ -35,5 +35,4 @@ fields:
     labelField: 
   label: Logs
 pages:
-- docs/journal.md
 - docs/yume.md
