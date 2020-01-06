@@ -11,6 +11,6 @@ meta:
   content: 
 
 ---
-## Video games
+# Video games
 
 ## Outer wild
