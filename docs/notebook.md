@@ -12,4 +12,7 @@ meta:
 
 The **Notebook** contains everything not sorted yet on the wiki.
 
-* Museum of digital arts.
+## Weekly TODO
+
+* Ranger la chambre
+* Faire des warhammers
