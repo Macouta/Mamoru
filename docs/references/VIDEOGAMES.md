@@ -15,4 +15,12 @@ meta:
 
 ## Backlog
 
-* [Disco Elysium]()
+* Disco Elysium
+* The Witcher 3
+* Grim Fandango
+
+## GOTYs
+
+* Hollow Knight
+* Celeste
+* Outer Wilds
