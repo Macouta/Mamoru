@@ -4,8 +4,7 @@ meta:
   content: ''
 - name: keywords
   content: ''
-logs:
-- title: ''
+logs: []
 
 ---
 # Journal
