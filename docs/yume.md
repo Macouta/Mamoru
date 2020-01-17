@@ -5,6 +5,10 @@ meta:
 - name: robots
   content: noindex
 logs:
+- title: Alicia fait un apero
+  date: 2020-01-17 00:00:00 +0100
+  description: J'ai noté ça en fin de journée donc je me souviens presque plus de
+    rien à part que Alicia devait faire un apero
 - date: 2019-12-05 00:00:00 +0100
   description: Je sais plus pourquoi ni comment mais on allait a un concert avec simon,
     c'était tout petit et y avait un escalier qui menait a un étage qui ressemblait
