@@ -9,4 +9,4 @@ meta:
 
 ---
 * Bulk Crap Uninstaller, clean registry entries and clean Programs/
-* TreeSize, Windows tree 
+* TreeSize, Windows tree viewer 
