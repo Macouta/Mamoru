@@ -35,3 +35,7 @@ The **Notebook** contains everything not sorted yet on the wiki.
 * Rousse
 * Danse avec twerk et dab
 * Epees fusionnées
+
+## Game business model
+
+A release every year or so, where customers have to buy the game again, cheap and incremental each year. Each release there is 
