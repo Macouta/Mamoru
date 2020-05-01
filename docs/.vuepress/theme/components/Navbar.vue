@@ -2,7 +2,7 @@
   <header class="navbar">
     <SidebarButton @toggle-sidebar="$emit('toggle-sidebar')"/>
 
-    <!-- <router-link
+    <router-link
       :to="$localePath"
       class="home-link"
     >
@@ -18,7 +18,7 @@
         v-if="$siteTitle"
         :class="{ 'can-hide': $site.themeConfig.logo }"
       >{{ $siteTitle }}</span>
-    </router-link> -->
+    </router-link>
 
     <div
       class="links"
@@ -91,15 +91,17 @@ $navbar-horizontal-padding = 1.5rem
 
 .navbar
   padding $navbar-vertical-padding $navbar-horizontal-padding
-  // line-height $navbarHeight - 1.4rem
+  line-height $navbarHeight - 1.4rem
   a, span, img
     display inline-block
   .logo
-    // height $navbarHeight - 1.4rem
-    // min-width $navbarHeight - 1.4rem
+    height $navbarHeight - 1.4rem
+    min-width $navbarHeight - 1.4rem
     margin-right 0.8rem
     vertical-align top
   .site-name
+    text-transform uppercase
+    font-family "Neue Droschke"
     font-size 1.3rem
     font-weight 600
     color $textColor
@@ -107,7 +109,7 @@ $navbar-horizontal-padding = 1.5rem
   .links
     padding-left 1.5rem
     box-sizing border-box
-    background-color $backgroundColor
+    background-color white
     white-space nowrap
     font-size 0.9rem
     position absolute

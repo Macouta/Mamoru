@@ -65,7 +65,7 @@ function renderLink (h, to, text, active) {
       active,
       'sidebar-link': true
     }
-  }, text)
+  }, '\u300C' + text + '\u300D')
 }
 
 function renderChildren (h, children, path, route, maxDepth, depth = 1) {
@@ -99,27 +99,41 @@ function renderExternal (h, to, text) {
   font-size 0.95em
 
 a.sidebar-link
+  position relative
   font-size 1em
   font-weight 400
   display inline-block
   color $textColor
   border-left 0.25rem solid transparent
-  padding 0.35rem 1rem 0.35rem 1.25rem
+  padding 0rem 1rem 0rem 1.25rem
   line-height 1.4
   width: 100%
   box-sizing: border-box
   &:hover
-    color $accentColor
+    background-color $accentColor
+    color $primary
   &.active
     font-weight 600
     color $accentColor
-    border-left-color $accentColor
   .sidebar-group &
     padding-left 2rem
   .sidebar-sub-headers &
-    padding-top 0.25rem
-    padding-bottom 0.25rem
+    margin-left: 0.25rem
+    padding-top 0
+    padding-bottom 0
+    padding-left 1.75rem
     border-left none
+    &:before
+      content: ''
+      position: absolute;
+      bottom: 40%;
+      left: 0.8rem;
+      height: 10px;
+      width: 7px;
+      border-left: 1px solid $textColor
+      border-bottom: 1px solid $textColor
     &.active
       font-weight 500
+    &.active:before
+      border-color: $accentColor
 </style>

@@ -9,27 +9,17 @@
 html, body
   padding 0
   margin 0
-  background-color $backgroundColor
+  background-color $primary
 
 body
-  font-family "CourierPrimeCode", sans-serif
+  font-family -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif
   -webkit-font-smoothing antialiased
   -moz-osx-font-smoothing grayscale
   font-size 16px
   color $textColor
-  height 100vh
-  
-.page-wrapper
-  margin:50px
 
 .page
-  background-color $pageColor
-  flex 1 1 auto  
-  height 100vh
-  postion absolute
-  bottom 20
-  border-radius 5px
-
+  padding-left $sidebarWidth
 
 .navbar
   position fixed
@@ -37,7 +27,8 @@ body
   top 0
   left 0
   right 0
-  background-color $backgroundColor
+  height $navbarHeight
+  background-color $primary
   box-sizing border-box
 
 .sidebar-mask
@@ -51,21 +42,24 @@ body
 
 .sidebar
   display flex
-  flex-direction: column
-  justify-content: flex-end
-  font-size 14px
-  background-color $backgroundColor
-  max-width $sidebarWidth
-  flex 1 1 auto
+  flex-direction column
+  justify-content space-between
+  // align-items flex-end
+  font-size 16px
+  background-color $primary
+  width $sidebarWidth
+  position fixed
   z-index 10
+  padding $gutterMargin
+  top $navbarHeight
+  left 0
+  bottom 0
   box-sizing border-box
-  height 100vh
-
+  overflow-y auto
 
 {$contentClass}:not(.custom)
   @extend $wrapper
-  > *:first-child
-    margin-top $navbarHeight
+  
 
   a:hover
     text-decoration underline
@@ -118,6 +112,7 @@ strong
   font-weight 600
 
 h1, h2, h3, h4, h5, h6
+  font-family "Neue Droschke"
   font-weight 600
   line-height 1.25
 
@@ -184,8 +179,8 @@ th, td
   border 1px solid #dfe2e5
   padding .6em 1em
 
+p 
 .theme-container
-  display flex
   &.sidebar-open
     .sidebar-mask
       display: block

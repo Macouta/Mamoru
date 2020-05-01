@@ -5,6 +5,16 @@
     @touchstart="onTouchStart"
     @touchend="onTouchEnd"
   >
+    <Navbar
+      v-if="shouldShowNavbar"
+      @toggle-sidebar="toggleSidebar"
+    />
+
+    <div
+      class="sidebar-mask"
+      @click="toggleSidebar(false)"
+    ></div>
+
     <Sidebar
       :items="sidebarItems"
       @toggle-sidebar="toggleSidebar"
@@ -19,6 +29,7 @@
       />
     </Sidebar>
 
+    <Home v-if="$page.frontmatter.home"/>
 
     <Page
       v-else
@@ -92,9 +103,9 @@ export default {
       const userPageClass = this.$page.frontmatter.pageClass
       return [
         {
-          'no-navbar': true,
+          'no-navbar': !this.shouldShowNavbar,
           'sidebar-open': this.isSidebarOpen,
-          'no-sidebar': false
+          'no-sidebar': !this.shouldShowSidebar
         },
         userPageClass
       ]
