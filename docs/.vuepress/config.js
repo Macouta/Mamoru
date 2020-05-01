@@ -3,16 +3,44 @@ module.exports = {
   title: "Mamoru",
   description: "wiki",
   head: [
-    ['link', { rel: 'icon', href: "/favicon.ico"}]
+    ['link', { rel: 'icon', href: "/favicon.ico" }],
+    ['link', { rel: 'stylesheet', href: "https://use.typekit.net/rpa2arv.css" }]
   ],
   themeConfig: {
-    // search
-    sidebar: [
-      '/',
-      'cv',
-      'yume',
-      'yume-doc'
-    ],
+    navbar: true,
+    sidebar: {
+      '/portfolio/': [
+        {
+          title: 'computer graphic',   // required
+          collapsable: false, // optional, defaults to true
+          sidebarDepth: 1,    // optional, defaults to 1
+          children: [
+            ['/portfolio/cg/three-graces', 'three-graces'],
+          ]
+        },
+        {
+          title: 'game jams',   // required
+          path: 'https://macouta.itch.io/',
+          collapsable: false, // optional, defaults to true
+          sidebarDepth: 1,    // optional, defaults to 1
+          children: [
+            ['/portfolio/gj/three-graces', 'three-graces'],
+          ]
+        },
+        {
+          title: 'developement',   // required
+          collapsable: false, // optional, defaults to true
+          sidebarDepth: 1,    // optional, defaults to 1
+          children: [
+            '/'
+          ]
+        },
+      ],
+      '/': [
+        ['/', 'Home'],
+        ['/portfolio/', 'Portfolio'],
+      ],
+    },
     search: false,
 
     // if your docs are in a different repo from your main project:

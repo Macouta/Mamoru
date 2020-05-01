@@ -7,7 +7,7 @@ meta:
     - name: keywords
       content:
 ---
-
+# CV
 ## Formation
 - Licence pro. DAWIN (Développement d'Applications Web et Innovations Numériques) | Université de Bordeaux | 2017-2018
   - Alternance : 3 semaines entreprises/1 semaine cours

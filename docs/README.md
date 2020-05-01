@@ -1,5 +1,6 @@
 ---
 title: Home
+path: '~'
 description:
 meta:
     - name: description
@@ -10,3 +11,5 @@ meta:
       content: 
 ---
 # Home
+
+WIP
