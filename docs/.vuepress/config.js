@@ -24,7 +24,7 @@ module.exports = {
           collapsable: false, // optional, defaults to true
           sidebarDepth: 1,    // optional, defaults to 1
           children: [
-            ['/portfolio/gj/three-graces', 'three-graces'],
+            ['/portfolio/gj/burning-desire', 'burning-desire'],
           ]
         },
         {
