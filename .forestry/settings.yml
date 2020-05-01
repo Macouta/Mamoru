@@ -4,6 +4,13 @@ auto_deploy: false
 admin_path: "/"
 webhook_url: 
 sections:
+- type: directory
+  path: docs/references
+  label: References
+  create: all
+  match: "**/*.md"
+  templates:
+  - default
 - type: document
   path: docs/README.md
   label: Home
@@ -18,7 +25,7 @@ sections:
   create: all
   match: "**/*"
   templates:
-  - standard
+  - default
 - type: heading
   label: Journaux
 - type: document
@@ -27,6 +34,9 @@ sections:
 - type: document
   path: docs/yume.md
   label: Yume
+- type: document
+  path: docs/buy.md
+  label: Buy list
 - type: heading
   label: Trackers
 - type: document

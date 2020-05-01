@@ -1,9 +1,16 @@
 ---
 title: Software
-description:
+description: 
 meta:
-    - name: description
-      content:
-    - name: keywords
-      content:
+- name: description
+  content: 
+- name: keywords
+  content: 
+
 ---
+* Bulk Crap Uninstaller, clean registry entries and clean Programs/
+* TreeSize, Windows tree viewer
+* GitKraken, git UI
+* Mailspring, email client
+* Hyper, Electron terminal
+* WSL, Windows Subsystem Linux

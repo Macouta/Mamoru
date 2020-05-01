@@ -5,7 +5,11 @@ meta:
 - name: robots
   content: noindex
 logs:
-- date: 2019-12-04T23:00:00.000+00:00
+- title: Alicia fait un apero
+  date: 2020-01-17 00:00:00 +0100
+  description: J'ai noté ça en fin de journée donc je me souviens presque plus de
+    rien à part que Alicia devait faire un apero
+- date: 2019-12-05 00:00:00 +0100
   description: Je sais plus pourquoi ni comment mais on allait a un concert avec simon,
     c'était tout petit et y avait un escalier qui menait a un étage qui ressemblait
     un peu au votre, Astrid et thomas. On rentre dedans, je crois que je fais un truc
@@ -40,4 +44,4 @@ lang: ''
 
 **_Yume_** is a dream journal. A place dedicaced to the **unconsciousness** and the **madness** of the mind.
 
-English readers, **_Yume_** is written in my native language, french. The state of mind must be focused on the dream and not on the language.
+English readers, **_Yume_** is written in my native language, french. The mind must be focused on the dream and not on the language.
