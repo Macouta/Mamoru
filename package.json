@@ -19,14 +19,7 @@
     "forestry:preview": "vuepress dev docs -p 8080 --host 0.0.0.0"
   },
   "devDependencies": {
-    "@endemolshinegroup/cz-github": "^1.0.5",
-    "cz-conventional-changelog": "^3.0.2",
     "vuepress": "^1.2.0"
-  },
-  "config": {
-    "commitizen": {
-      "path": "cz-customizable"
-    }
   },
   "dependencies": {
     "axios": "^0.19.0",
