@@ -10,21 +10,21 @@ sections:
 - type: heading
   label: Portfolio
 - type: directory
-  path: portfolio/cg
+  path: docs/portfolio/cg
   label: Computer Graphics
   create: documents
   match: "**/*"
   templates:
   - default
 - type: directory
-  path: portfolio/gj
+  path: docs/portfolio/gj
   label: Game jams
   create: documents
   match: "**/*"
   templates:
   - default
 - type: directory
-  path: portoflio/dev
+  path: docs/portoflio/dev
   label: Developement
   create: documents
   match: "**/*"
