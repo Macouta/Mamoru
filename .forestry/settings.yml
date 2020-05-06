@@ -5,24 +5,28 @@ admin_path: "/"
 webhook_url: 
 sections:
 - type: directory
-  path: docs/references
-  label: References
-  create: all
-  match: "**/*.md"
+  path: portoflio/dev
+  label: Developement
+  create: documents
+  match: "**/*"
   templates:
   - default
 - type: document
   path: docs/README.md
   label: Home
+- type: heading
+  label: Portfolio
 - type: directory
-  path: docs/.vuepress
-  label: Config
-  create: none
+  path: portfolio/cg
+  label: Computer Graphics
+  create: documents
   match: "**/*"
+  templates:
+  - default
 - type: directory
-  path: docs
-  label: Docs
-  create: all
+  path: portfolio/gj
+  label: Game jams
+  create: documents
   match: "**/*"
   templates:
   - default
@@ -50,6 +54,13 @@ sections:
 - type: document
   path: docs/yume-doc.md
   label: Yume Doc
+- type: directory
+  path: docs
+  label: Docs
+  create: all
+  match: "**/*"
+  templates:
+  - default
 upload_dir: assets
 public_path: "/assets"
 front_matter_path: ''
