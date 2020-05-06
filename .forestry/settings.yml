@@ -4,13 +4,6 @@ auto_deploy: false
 admin_path: "/"
 webhook_url: 
 sections:
-- type: directory
-  path: portoflio/dev
-  label: Developement
-  create: documents
-  match: "**/*"
-  templates:
-  - default
 - type: document
   path: docs/README.md
   label: Home
@@ -26,6 +19,13 @@ sections:
 - type: directory
   path: portfolio/gj
   label: Game jams
+  create: documents
+  match: "**/*"
+  templates:
+  - default
+- type: directory
+  path: portoflio/dev
+  label: Developement
   create: documents
   match: "**/*"
   templates:
