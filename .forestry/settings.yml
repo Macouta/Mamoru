@@ -9,6 +9,14 @@ sections:
   label: Home
 - type: heading
   label: Portfolio
+- type: document
+  path: portfolio/README.md
+  label: About
+  match: "**/*"
+- type: document
+  path: portfolio/cv.md
+  label: CV
+  match: "**/*"
 - type: directory
   path: docs/portfolio/cg
   label: Computer Graphics
