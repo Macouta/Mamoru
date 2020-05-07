@@ -81,6 +81,7 @@ export default {
   &.is-sub-group
     padding-left 0
     & > .sidebar-heading
+    
       font-size 0.95em
       line-height 1.4
       font-weight normal
@@ -97,13 +98,14 @@ export default {
       border-left none
 
 .sidebar-heading
+  font-family "Neue Droschke" !important
   color $textColor
   transition color .15s ease
   cursor pointer
   font-size 1.1em
   font-weight bold
   // text-transform uppercase
-  padding 0.35rem 1.5rem 0.35rem 1.25rem
+  padding 0 1.5rem 0 1.25rem
   width 100%
   box-sizing border-box
   margin 0

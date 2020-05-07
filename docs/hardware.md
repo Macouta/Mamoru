@@ -15,7 +15,6 @@ meta:
 - Graphics card : AMD Radeon RX Vega 64
 - Hard drives : 120GB SSD / 1TB HDD
 - Keyboard : Corsair Gaming K55 RGB
-- Mouse : ASUS Laser GAMINsG MOUSE
 - Screens : IIYAMA 24,5" LED - G-MASTER G2530HSU-B1 Black Hawk x2
 
 ## DNS Config

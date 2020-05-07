@@ -21,7 +21,7 @@ export default {
 
   components: { SidebarLinks, NavLinks },
 
-  props: ['items']
+  props: ['items'],
 }
 </script>
 
@@ -32,7 +32,10 @@ export default {
     max-height 250px
     margin-left: 2rem;
     margin-right: 2rem;
-    background center / cover no-repeat url('/assets/img/raining_men_purple.png')
+    background-repeat no-repeat 
+    background-position center
+    background-position 50% 50%
+    background-image url('/img/raining_men_depth_1.png'), url('/img/raining_men_depth_2.png')
     border: 2px solid $textColor
     &:before
       content ''
@@ -41,7 +44,7 @@ export default {
       left -15px
       width 40px
       height 40px
-      background-image url('/assets/img/cadre.png')
+      background-image url('/img/cadre.png')
       transform rotate(-90deg)
       background-size cover;
     &:after
@@ -51,7 +54,7 @@ export default {
         right -15px
         width 40px
         height 40px
-        background-image url('/assets/img/cadre.png')
+        background-image url('/img/cadre.png')
         transform rotate(90deg)
         background-size cover;
 
@@ -60,6 +63,7 @@ export default {
   font-size 30px
   font-weight 600
   text-transform uppercase
+  text-align center
   position: absolute
   transform : translate(-50%, -50%)
   top: 50%;

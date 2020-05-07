@@ -89,7 +89,7 @@ function renderExternal (h, to, text) {
     class: {
       'sidebar-link': true
     }
-  }, [text, h('OutboundLink')])
+  }, ['\u300C' + text + '\u300D'])
 }
 </script>
 
@@ -99,6 +99,7 @@ function renderExternal (h, to, text) {
   font-size 0.95em
 
 a.sidebar-link
+  font-family "input-mono-condensed", monospace
   position relative
   font-size 1em
   font-weight 400
@@ -109,9 +110,6 @@ a.sidebar-link
   line-height 1.4
   width: 100%
   box-sizing: border-box
-  &:hover
-    background-color $accentColor
-    color $primary
   &.active
     font-weight 600
     color $accentColor

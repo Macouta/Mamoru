@@ -4,6 +4,7 @@
     :class="pageClasses"
     @touchstart="onTouchStart"
     @touchend="onTouchEnd"
+    @mousemove="parallax"
   >
     <Navbar
       v-if="shouldShowNavbar"
@@ -59,7 +60,8 @@ export default {
 
   data () {
     return {
-      isSidebarOpen: false
+      isSidebarOpen: false,
+      parallaxDOM: null
     }
   },
 
@@ -116,6 +118,7 @@ export default {
     this.$router.afterEach(() => {
       this.isSidebarOpen = false
     })
+    this.parallaxDOM = document.querySelector(".sidebar-header")
   },
 
   methods: {
@@ -142,6 +145,17 @@ export default {
           this.toggleSidebar(false)
         }
       }
+    },
+
+    parallax(e) {
+      let _w = window.innerWidth/2;
+      let _h = window.innerHeight/2;
+      let _mouseX = e.clientX;
+      let _mouseY = e.clientY;
+      let _depth1 = `${50 - (_mouseX - _w) * 0.005}% ${50 - (_mouseY - _h) * 0.02}%`;
+      let _depth2 = `${50 - (_mouseX - _w) * 0.01}% ${50 - (_mouseY - _h) * 0.03}%`;
+      let x = `${_depth2}, ${_depth1}`;
+      this.parallaxDOM.style.backgroundPosition = x;
     }
   }
 }
