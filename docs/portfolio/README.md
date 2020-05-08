@@ -25,7 +25,7 @@ You can find my CV [here](cv/).
 
 #### [misc](cg/misc)
 
-#### poster design
+#### [poster design](cg/poster-design)
 
 ### [Game Jam](gj/)
 
