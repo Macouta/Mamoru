@@ -13,6 +13,8 @@ sidebarDepth: 0
 ---
 ## ABOUT
 
+<frame-rose img="/img/ui_about_me.png" />
+
 You can find my CV [here](cv/).
 
 ## WORK

@@ -35,7 +35,7 @@ export default {
     background-repeat no-repeat 
     background-position center
     background-position 50% 50%
-    background-image url('/img/raining_men_depth_1.png'), url('/img/raining_men_depth_2.png')
+    background-image url('/img/ui_raining_men_depth_1.png'), url('/img/ui_raining_men_depth_2.png')
     border: 2px solid $textColor
     &:before
       content ''
@@ -44,7 +44,7 @@ export default {
       left -15px
       width 40px
       height 40px
-      background-image url('/img/cadre.png')
+      background-image url('/img/ui_cadre.png')
       transform rotate(-90deg)
       background-size cover;
     &:after
@@ -54,7 +54,7 @@ export default {
         right -15px
         width 40px
         height 40px
-        background-image url('/img/cadre.png')
+        background-image url('/img/ui_cadre.png')
         transform rotate(90deg)
         background-size cover;
 

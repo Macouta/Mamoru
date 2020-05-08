@@ -12,7 +12,7 @@ html, body
   background-color $primary
 
 body
-  font-family -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif
+  font-family "input-mono", monospace
   -webkit-font-smoothing antialiased
   -moz-osx-font-smoothing grayscale
   font-size 16px
@@ -116,11 +116,6 @@ h1, h2, h3, h4, h5, h6
   font-weight 600
   line-height 1.25
 
-  {$contentClass}:not(.custom) > &
-    margin-top (0.5rem - $navbarHeight)
-    padding-top ($navbarHeight + 1rem)
-    margin-bottom 0
-
     &:first-child
       margin-top -1.5rem
       margin-bottom 1rem
@@ -135,19 +130,30 @@ h1
   font-size 2.2rem
 
 h2
+  position relative
   font-size 1.65rem
   padding-bottom .3rem
-  border-bottom 1px solid $borderColor
+  border-bottom 2px solid $borderColor
+  z-index 10
+  &:after
+    content ''
+    position absolute
+    bottom -29px
+    right -15px
+    width 30px
+    height 30px
+    background-image url('/img/ui_cadre.png')
+    background-size cover;
 
 h3
   font-size 1.35rem
 
 a.header-anchor
   font-size 0.85em
+  color $textcolor
   float left
   margin-left -0.87em
   padding-right 0.23em
-  margin-top 0.125em
   opacity 0
 
   &:hover
@@ -178,6 +184,24 @@ tr
 th, td
   border 1px solid #dfe2e5
   padding .6em 1em
+
+/* width */
+::-webkit-scrollbar
+  width: 5px
+
+/* Track */
+::-webkit-scrollbar-track
+  background: $primary
+ 
+/* Handle */
+::-webkit-scrollbar-thumb
+  background: $accentColor
+
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover
+  background: $accentColor
+
 
 p 
 .theme-container

@@ -65,6 +65,9 @@ module.exports = {
     prevLinks: false,
 
   },
+  markdown: {
+    anchor: { permalink: false, permalinkBefore: false, permalinkSymbol: '\u1557' }
+  },
   plugins: [
     ['vuepress-plugin-clean-urls',
       {
