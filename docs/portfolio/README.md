@@ -17,17 +17,17 @@ You can find my CV [here](cv/).
 
 ## WORK
 
-### Computer graphics
+### [Computer graphics](cg/)
 
-#### three graces
+#### [three graces](cg/three-graces)
 
-#### mercenary
+#### [mercenary](cg/mercenary)
 
-#### misc
+#### [misc](cg/misc)
 
 #### poster design
 
-### Game Jam
+### [Game Jam](gj/)
 
 #### [Burning Desire](gj/burning-desire)
 
