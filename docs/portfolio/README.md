@@ -1,18 +1,24 @@
 ---
-title:  Portfolio
-description:
+title: Portfolio
+description: A selection of work from diferent computer fields. From CGI to programming,
+  I thrive on the duality between creativity and technicity.
 meta:
-    - name: description
-      content:
-    - name: keywords
-      content:
+- name: description
+  content: ''
+- name: keywords
+  content: ''
+lang: en-US
+
 ---
+
+## ABOUT
+
+You can find my CV [here](cv/).
+
+## WORK
+
 ### 3D
+
 ### Developement
 
 ### Game Jam
-
-
-bjr je suis un texte pour tester
-[CV](cv/)
-![me](/img/me.jpg)
