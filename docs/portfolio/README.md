@@ -8,12 +8,12 @@ meta:
 - name: keywords
   content: ''
 lang: en-US
-sidebarDepth: 0
+sidebarDepth: 
 
 ---
 ## ABOUT
 
-<frame-rose img="/img/ui_about_me.png" />
+<frame-rose img="/img/ui_aboutm_scream.jpg" />
 
 You can find my CV [here](cv/).
 
