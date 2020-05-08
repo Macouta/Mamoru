@@ -67,8 +67,8 @@ sections:
   match: "**/*"
   templates:
   - default
-upload_dir: assets
-public_path: "/assets"
+upload_dir: docs/.vuepress/public/img
+public_path: "/img"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
