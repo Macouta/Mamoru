@@ -13,7 +13,7 @@ sidebarDepth:
 ---
 ## ABOUT
 
-<frame-rose img="/img/ui_aboutm_scream.jpg" />
+<frame-rose img="/img/ui_aboutme___scream.jpg" />
 
 You can find my CV [here](cv/).
 
