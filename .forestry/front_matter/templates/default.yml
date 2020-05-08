@@ -20,10 +20,9 @@ fields:
 - name: sidebarDepth
   type: number
   label: sidebarDepth
-  description: The sidebar automatically displays links for headers in the current
-    active page, nested under the link for the page itself. Setting it to <code>0</code>
-    disables the header links, and the max value is <code>2</code> which extracts
-    both <code>h2</code> and <code>h3</code> headers.
+  description: Setting it to <code>0</code> disables the header links, and the max
+    value is <code>2</code> which extracts both <code>h2</code> and <code>h3</code>
+    headers.
   default: 0
   required: true
   config:
