@@ -21,7 +21,7 @@ meta:
 
 ### Pro
 
-* 2018 – 2019 DÉVELOPPEUR INDÉPENDANT
+* 2018 – 2020 DÉVELOPPEUR INDÉPENDANT
   * Autoentrepreneur
 * 2017 – 2018 OPENFLYERS
   * Alternance
