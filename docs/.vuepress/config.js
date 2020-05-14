@@ -18,6 +18,7 @@ module.exports = {
           children: [
             ['/portfolio/cg/three-graces', 'three-graces'],
             ['/portfolio/cg/mercenary', 'mercenary'],
+            ['/portfolio/cg/ceson', 'ce son - Nebbiu']
             ['/portfolio/cg/launchpad', 'launchpad'],
             ['/portfolio/cg/poster-design', 'poster design'],
           ]
@@ -27,11 +28,10 @@ module.exports = {
           collapsable: false, // optional, defaults to true
           sidebarDepth: 1,    // optional, defaults to 1
           children: [
-            ['/portfolio/gj/burning-desire', 'burning-desire'],
-            ['/portfolio/gj/bloom', 'bloom'],
-            ['/portfolio/gj/does-size-matter', 'does-size-matter'],
-            ['/portfolio/gj/prince-and-the-flower', 'prince-and-the-flower'],
-            ['https://macouta.itch.io/', 'itch.io'],
+            ['https://macouta.itch.io/burning-desire', 'burning-desire'],
+            ['https://macouta.itch.io/bloom', 'bloom'],
+            ['https://macouta.itch.io/does-size-matter', 'does-size-matter'],
+            ['https://macouta.itch.io/the-prince-and-the-flower', 'prince-and-the-flower']
           ]
         },
         {
