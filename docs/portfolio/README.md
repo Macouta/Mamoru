@@ -19,6 +19,8 @@ You can find my CV [here](cv/).
 
 ## WORK
 
+> pink titles are clickable and lead to more content.
+
 ### [Computer graphics](cg/)
 
 #### [three graces](cg/three-graces)
@@ -30,7 +32,7 @@ Three graces is one of my first experimentation with Blender. I tried to create 
 #### [mercenary](cg/mercenary)
 
 I try to recreate the mercenary character from the game Risk Of Rain 2.  
-I did the modeling, the painted textures, and rigging/posing. 
+I did the modeling, the painted textures, and rigging/posing.
 
 ![](/img/cg_merc_thumb.png)
 
