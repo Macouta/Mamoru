@@ -23,40 +23,51 @@ You can find my CV [here](cv/).
 
 #### [three graces](cg/three-graces)
 
+Three graces is one of my first experimentation with Blender. I tried to create something with a good composition, it has to be a triptic of three squares. I discovered the texture node editor and mess around with it to denaturate those feminine figures with vivid and saturated colors.
+
 ![](/img/cg_three_graces_full.png)
 
 #### [mercenary](cg/mercenary)
 
+I try to recreate the mercenary character from the game Risk Of Rain 2.  
+I did the modeling, the painted textures, and rigging/posing. 
+
 ![](/img/cg_merc_thumb.png)
 
-#### [launchpad]()
+#### [launchpad](cg/launchpad)
+
+Started from a tuto now we're here.
 
 ![](/img/cg_launchpad_pixel.png)
 
-#### [misc](cg/misc)
+#### misc
+
+collection of stuffs
 
 ![](/img/cg_misc_atlas.png)
 
 #### [poster design](cg/poster-design)
 
+![](/img/cg_poster_jpo_thumb.png)
+
 ### [Game Jam](gj/)
 
-#### [Burning Desire](gj/burning-desire)
+#### [Burning Desire](https://macouta.itch.io/burning-desire)
 
 ![](/img/gj_burning_desire.jpg)
 
-#### [Bloom](gj/bloom)
+#### [Bloom](https://macouta.itch.io/bloom)
 
 ![](/img/gj_thumb_bloom.png)
 
-#### [Does Size Matter](gj/does-size-matter)
+#### [Does Size Matter](https://macouta.itch.io/does-size-matter)
 
 ![](/img/gj_thumb_dsm.png)
 
-#### [Prince and the Flower](gj/prince-and-the-flower)
+#### [Prince and the Flower](https://macouta.itch.io/the-prince-and-the-flower)
 
 ![](/img/gj_thumb_pnf.png)
 
 ### Developement
 
-* [Github]()
+I try to find ways to me the more creative possible when I'm coding. I mainly host my personal projects on [Github](https://github.com/Macouta).
