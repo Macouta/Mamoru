@@ -21,7 +21,7 @@ You can find my CV [here](cv/).
 
 > pink titles are clickable and lead to more content.
 
-### [Computer graphics](cg/)
+### Computer graphics
 
 #### [three graces](cg/three-graces)
 
@@ -50,9 +50,11 @@ collection of stuffs
 
 #### [poster design](cg/poster-design)
 
+some posters i did when I was at the IUT because I was com manager in the student association.
+
 ![](/img/cg_poster_jpo_thumb.png)
 
-### [Game Jam](gj/)
+### Game Jam
 
 #### [Burning Desire](https://macouta.itch.io/burning-desire)
 
