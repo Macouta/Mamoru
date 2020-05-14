@@ -13,18 +13,17 @@ module.exports = {
         ['/portfolio/', 'about'],
         {
           title: 'computer graphic',   // required
-          path: '/portfolio/cg/',
           collapsable: false, // optional, defaults to true
           sidebarDepth: 1,    // optional, defaults to 1
           children: [
             ['/portfolio/cg/three-graces', 'three-graces'],
             ['/portfolio/cg/mercenary', 'mercenary'],
-            ['/portfolio/cg/misc', 'misc'],
+            ['/portfolio/cg/launchpad', 'launchpad'],
+            ['/portfolio/cg/poster-design', 'poster design'],
           ]
         },
         {
           title: 'game jams',   // required
-          path: '/portfolio/gj/',
           collapsable: false, // optional, defaults to true
           sidebarDepth: 1,    // optional, defaults to 1
           children: [
@@ -37,7 +36,6 @@ module.exports = {
         },
         {
           title: 'developement',   // required
-          path: '/portfolio/dev/',
           collapsable: false, // optional, defaults to true
           sidebarDepth: 1,    // optional, defaults to 1
           children: [
