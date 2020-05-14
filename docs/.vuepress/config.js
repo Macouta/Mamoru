@@ -18,7 +18,7 @@ module.exports = {
           children: [
             ['/portfolio/cg/three-graces', 'three-graces'],
             ['/portfolio/cg/mercenary', 'mercenary'],
-            ['/portfolio/cg/ceson', 'ce son - Nebbiu']
+            ['/portfolio/cg/ceson', 'ce son'],
             ['/portfolio/cg/launchpad', 'launchpad'],
             ['/portfolio/cg/poster-design', 'poster design'],
           ]
