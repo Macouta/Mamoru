@@ -57,7 +57,6 @@ export default {
         background-image url('/img/ui_cadre.png')
         transform rotate(90deg)
         background-size cover;
-
 .sidebar-title
   font-family 'Neue Droschke'
   font-size 30px

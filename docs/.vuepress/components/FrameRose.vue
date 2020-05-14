@@ -27,7 +27,7 @@ export default {
   position absolute
   top 0
   left 0
-  z-index 10
+  z-index 1
   height 100%
 .frame-rose-img
   padding 0 2px 
