@@ -23,9 +23,19 @@ You can find my CV [here](cv/).
 
 #### [three graces](cg/three-graces)
 
+![](/img/cg_three_graces_full.png)
+
 #### [mercenary](cg/mercenary)
 
+![](/img/cg_merc_thumb.png)
+
+#### [launchpad]()
+
+![](/img/cg_launchpad_pixel.png)
+
 #### [misc](cg/misc)
+
+![](/img/cg_misc_atlas.png)
 
 #### [poster design](cg/poster-design)
 
@@ -33,10 +43,20 @@ You can find my CV [here](cv/).
 
 #### [Burning Desire](gj/burning-desire)
 
+![](/img/gj_burning_desire.jpg)
+
 #### [Bloom](gj/bloom)
+
+![](/img/gj_thumb_bloom.png)
 
 #### [Does Size Matter](gj/does-size-matter)
 
+![](/img/gj_thumb_dsm.png)
+
 #### [Prince and the Flower](gj/prince-and-the-flower)
 
+![](/img/gj_thumb_pnf.png)
+
 ### Developement
+
+* [Github]()
