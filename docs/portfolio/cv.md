@@ -7,7 +7,7 @@ meta:
 - name: keywords
   content: ''
 lang: fr
-sidebarDepth: 4
+sidebarDepth: 2
 
 ---
 ## Formation
