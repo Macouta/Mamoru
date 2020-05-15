@@ -1,11 +1,13 @@
 ---
 title: CV
-description: 
+description: Macouta's curiculum vitae
 meta:
 - name: description
-  content: 
+  content: ''
 - name: keywords
-  content: 
+  content: ''
+lang: fr
+sidebarDepth: 4
 
 ---
 ## Formation
