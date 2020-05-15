@@ -1,5 +1,6 @@
 ---
 title: Mercenary
+sidebarDepth: 0
 
 ---
 ## renders
