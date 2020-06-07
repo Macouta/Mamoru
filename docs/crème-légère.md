@@ -3,8 +3,17 @@ title: Crème Légère
 lang: ''
 description: ''
 meta: []
+sidebarDepth: 
 
 ---
 # La Crème Légère
 
-Musique jazz, trompette ou saxo, à la fin de la chanson, sur la dernière note, on rentre dans de la techno cf GE ZI Howie 
+## VST
+
+* Lounge Lizard
+* Chronophone 2
+* FreeClip
+* Halftime
+* Izotope Vinyl
+* Trackspacer
+* Gullfoss, mastering
