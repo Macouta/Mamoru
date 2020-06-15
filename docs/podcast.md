@@ -17,9 +17,13 @@ Est ce qu'on fait un truc thématique ?
 
 ### Technique
 
+Enregistrement audio et vidéo. L'audio est capté indépendamment, et on clap pour tout synchronisé au montage.
+
 * Micro écouteur Angelo
 * Micro casque Thomas
+* Micro Pied Thomas ?
 * Micro ambiance Rhodes
+* Black Magic
 * PC (Mixage ?)
 
 ### Pilote
