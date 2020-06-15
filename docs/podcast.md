@@ -36,3 +36,7 @@ Enregistrement audio et vidéo. L'audio est capté indépendamment, et on clap p
 * Marie
 * Alicia
 * ...
+
+### Promo
+
+Story intagram créative pour avoir un format vidéo intéressant et créatif.
