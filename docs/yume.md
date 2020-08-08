@@ -5,11 +5,18 @@ meta:
 - name: robots
   content: noindex
 logs:
+- title: Journée a labat
+  date: 2020-08-08 00:00:00 +0200
+  description: 'On était a labat avec plusieurs personne, il y avait mon père, une
+    table entre deux colines, on a finit l''apéro ici. Apéro qui consistait a invitait
+    toutes les créatures du royaume ( notamment plein de poussins). Ensuite Astrid
+    m''a parlé de loup et de gants jaunes encastré au mur et à quel point le terrain
+    était riche en pierre précieuse '
 - title: Alicia fait un apero
-  date: 2020-01-17 00:00:00 +0100
+  date: 2020-01-16T23:00:00.000+00:00
   description: J'ai noté ça en fin de journée donc je me souviens presque plus de
     rien à part que Alicia devait faire un apero
-- date: 2019-12-05 00:00:00 +0100
+- date: 2019-12-04T23:00:00.000+00:00
   description: Je sais plus pourquoi ni comment mais on allait a un concert avec simon,
     c'était tout petit et y avait un escalier qui menait a un étage qui ressemblait
     un peu au votre, Astrid et thomas. On rentre dedans, je crois que je fais un truc
@@ -38,6 +45,7 @@ logs:
     un bout de rêve.'
   title: Le premier p'tit bout
 lang: ''
+sidebarDepth: 
 
 ---
 # Yume
