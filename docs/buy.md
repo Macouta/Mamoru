@@ -13,12 +13,12 @@ sidebarDepth:
 ## Supplies
 
 * Uni pin ball 5 feutres 0.1 a 0.8
-* Criterium 7
-* Rodia dotPad
 * Sewing kit
 
 ## Selfcare
 
-## Fengshui
+## Home
 
-* Carpet
+* sofa bed
+* washing machine
+* oven
