@@ -70,6 +70,18 @@ Regroupement de plantes qui sont un seul et même individu, qui ne fait que se c
 
 ### Heritiers
 
-#### _The Dreaming Pillow_
+#### _The Dreaming Pillow_ (2007)
 
 Projection interactive sur un oreiller. 
+
+#### _Qui Suis Je ?_ (2010)
+
+Jeu du devine tête en AR, installation muséale.
+
+#### _IAM4MINE_ (2010)
+
+Scénographie avec mime derrière des toiles en ombres chinoise.
+
+#### _Miroir_ (2011)
+
+Miroir qui place en AR un animal qui chante par dessus la tête du spectateur.
