@@ -10,34 +10,66 @@ meta: []
 
 ## Les pionniers de l'Art numérique et des jeux vidéo
 
-### Jean-Louis Boissier - _le bus_ (1985)
+### Pionniers
+
+#### Jean-Louis Boissier - _le bus_ (1985)
 
 parcours de bus, étudiant s’arrêtent chez des volontaires et rentrent chez eux et dans leur intimité.
 
-### Jean-Louis Boissier - _Pekin pour Memoire_
+#### Jean-Louis Boissier - _Pekin pour Memoire_
 
-Table et télé avec 4 boutons au point cardinaux, représentant des temples dans Pekin. Parcours jusqu’à ces temples. Toutes les minutes il prenait une photo de ce qu'il y avait devant lui. 
+Table et télé avec 4 boutons au point cardinaux, représentant des temples dans Pekin. Parcours jusqu’à ces temples. Toutes les minutes il prenait une photo de ce qu'il y avait devant lui.
 
-### Michel Bret, Marie-Hélène Tramus et Edmond Cuchot - _Je sème à tout vent_ (1988), _Pissenlits_ (2005)
+#### Michel Bret, Marie-Hélène Tramus et Edmond Cuchot - _Je sème à tout vent_ (1988), _Pissenlits_ (2005)
 
 contrôleur micro, souffler dedans permettait au pissenlit de semer à tout va
 
-### Jeffrey Shaw - _Legible City_
+#### Jeffrey Shaw - _Legible City_
 
 contrôleur vélo devant un écran géant, on se ballade dans une ville mais tout les bâtiments sont remplacés par des textes
 
-### Luc Courchesne - _Portrait One_ (1990/95)
+#### Luc Courchesne - _Portrait One_ (1990/95)
 
 Discussion interactive avec une femme en vidéo, choix de dialogues dispo. Echelle 1:1.
 
-### Jeffrey Shaw - _Golden Calf_ (1994) 
+#### Jeffrey Shaw - _Golden Calf_ (1994)
 
 Mise en scène muséale d'un faux dieu sur piédestal, en pseudo AR : une statue de veau en or avec les reflets de la pièce.
 
-### Maurice Benayoun - _World Skin_ (1998-200)
+#### Maurice Benayoun - _World Skin_ (1998-200)
 
 Immersion dans une salle remplie d'écran avec lunette 3D. Monde génératif, le spectateur peut prendre des photos et arrache la peau du monde (le cadre de la photo perd de ses couleurs)
 
-### Fujihata Masaki - _Field-Works_ 2000-2012
+#### Fujihata Masaki - _Field-Works_ (2000-2012)
 
 Table interactive avec des images qui bougent en fonction de l'espace et du temps. Sélectionner une image permet un focus et de voir la vidéo associée et de comprendre ses déplacements.
+
+#### Michel Bret, Marie Helene Tramus - _La Funambule Virtuelle_ (2002)
+
+Réseau de neurone, balancier avec capture de données en temps réel (gyroscope), le modèle 3D réagit en temps réel au mouvement de l'utilisateur et essaye de garder l'équilibre. 
+
+### Collections
+
+#### George Legrady - _Slippery Traces_ (1996)
+
+Creation d'une collection d'image en selectionnant une à une d'image en image
+
+#### George Legrady - _Des Souvenirs Plein les Poches_ (2001)
+
+le public donne une image et une description d'un objet qu'il a en venant à l'exposition.  
+Les objets sont regroupés en catégorie.  
+Carte organisée spatialement en fonction de leur catégorie, disponible sur internet.
+
+#### Jean-Louis Boissier - _Mémoire de crayons_ (1995-2001)
+
+Collection de pleins de crayons. deux tables, une avec les crayons,  l'autre a un ordinateur ou on peut input une description d'un crayon et l'ordinateur va retrouver les crayons dans la base de données.
+
+#### Jean-Louis Boissier - Crassula Ubiquiste (1985-2014)
+
+Regroupement de plantes qui sont un seul et même individu, qui ne fait que se cloner.
+
+### Heritiers
+
+#### _The Dreaming Pillow_
+
+Projection interactive sur un oreiller. 
