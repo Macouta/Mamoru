@@ -24,10 +24,19 @@ fields:
       date_format: 
       time_format: 
       display_utc: false
-  - name: description
+  - name: descriptionf
     type: text
     config:
       required: false
+    label: Descriptionfeld
+  - name: description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
     label: Description
   config:
     min: 
