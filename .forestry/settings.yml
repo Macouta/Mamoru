@@ -8,35 +8,6 @@ sections:
   path: docs/README.md
   label: Home
 - type: heading
-  label: Portfolio
-- type: document
-  path: docs/portfolio/README.md
-  label: About
-- type: document
-  path: docs/portfolio/cv.md
-  label: CV
-- type: directory
-  path: docs/portfolio/cg
-  label: Computer Graphics
-  create: documents
-  match: "**/*"
-  templates:
-  - default
-- type: directory
-  path: docs/portfolio/gj
-  label: Game jams
-  create: documents
-  match: "**/*"
-  templates:
-  - default
-- type: directory
-  path: docs/portoflio/dev
-  label: Developement
-  create: documents
-  match: "**/*"
-  templates:
-  - default
-- type: heading
   label: Journaux
 - type: document
   path: docs/journal.md
@@ -64,6 +35,21 @@ sections:
   path: docs
   label: Docs
   create: all
+  match: "**/*"
+  templates:
+  - default
+- type: heading
+  label: Portfolio
+- type: document
+  path: docs/portfolio/cv.md
+  label: CV
+- type: document
+  path: docs/portfolio/README.md
+  label: About
+- type: directory
+  path: docs/portfolio/cg
+  label: Computer Graphics
+  create: documents
   match: "**/*"
   templates:
   - default
