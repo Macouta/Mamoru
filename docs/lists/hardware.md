@@ -2,9 +2,9 @@
 title: Hardware
 description:
 meta:
-\- name: description
-content:
-\- name: keywords
+    - name: description
+    content:
+    - name: keywords
 content:
 ---
 
