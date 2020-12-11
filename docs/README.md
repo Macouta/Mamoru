@@ -1,14 +1,20 @@
 ---
-title: Home
-path: '\~'
-description:
-meta:
-    - name: description
-    content:
-    - name: keywords
-    content:
-    - name: robots
-    content:
+{
+  "title": "Home",
+  "path": "\\~",
+  "description": null,
+  "meta": [
+    {
+      "name": "description\ncontent:"
+    },
+    {
+      "name": "keywords\ncontent:"
+    },
+    {
+      "name": "robots\ncontent:"
+    }
+  ]
+}
 ---
 
 # Home

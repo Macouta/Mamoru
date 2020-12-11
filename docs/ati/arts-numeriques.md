@@ -1,7 +1,7 @@
 ---
 {
   "sidebarDepth": 0,
-  "title": "Arts Numeriques",
+  "title": "Arts Nu meriques",
   "lang": "",
   "description": "",
   "meta": []
