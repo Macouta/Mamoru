@@ -6,14 +6,15 @@ description: ''
 meta: []
 
 ---
+
 ## Podcast de soirée
 
 Enregistrement d'une soirée ou Angelo et moi on passe une mixtape de notre cru, on garde un esprit soirée mais avec une maîtrise et un contrôle de ce qu'il s'y passe.
 
 Peut être décliné sous d'autres formes pour parler de sujet plus libre. (Spiritualité, Politique, etc...)
 
-Est ce qu'on fait un truc thématique ?  
-\- Angelo et moi pas chaud, mais peut être intéressant
+Est ce qu'on fait un truc thématique ?
+\- Angelo et moi pas chaud\, mais peut être intéressant
 
 ### Technique
 
