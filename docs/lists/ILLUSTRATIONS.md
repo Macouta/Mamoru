@@ -1,8 +1,10 @@
 ---
-title: painting
-lang: ''
-description: ''
-meta: []
+{
+  "title": "painting",
+  "lang": "",
+  "description": "",
+  "meta": []
+}
 
 ---
 * Tête de Méduse - Rubens

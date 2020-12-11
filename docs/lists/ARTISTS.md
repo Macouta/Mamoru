@@ -1,13 +1,22 @@
 ---
-title: Artists
-description:
-meta:
-    - name: description
-      content:
-    - name: keywords
-      content:
-    - name: robots
-      content: 
+{
+  "title": "Artists",
+  "description": null,
+  "meta": [
+    {
+      "name": "description",
+      "content": null
+    },
+    {
+      "name": "keywords",
+      "content": null
+    },
+    {
+      "name": "robots",
+      "content": null
+    }
+  ]
+}
 ---
 # Artists
 - Thrin Xuan

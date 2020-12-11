@@ -1,11 +1,18 @@
 ---
-title: Software
-description: 
-meta:
-- name: description
-  content: 
-- name: keywords
-  content: 
+{
+  "title": "Software",
+  "description": null,
+  "meta": [
+    {
+      "name": "description",
+      "content": null
+    },
+    {
+      "name": "keywords",
+      "content": null
+    }
+  ]
+}
 
 ---
 * Bulk Crap Uninstaller, clean registry entries and clean Programs/

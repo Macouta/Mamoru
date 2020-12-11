@@ -1,14 +1,20 @@
 ---
-title: CV
-description: Macouta's curiculum vitae
-meta:
-- name: description
-  content: ''
-- name: keywords
-  content: ''
-lang: fr
-sidebarDepth: 2
-
+{
+  "title": "CV",
+  "description": "Macouta's curiculum vitae",
+  "meta": [
+    {
+      "name": "description",
+      "content": ""
+    },
+    {
+      "name": "keywords",
+      "content": ""
+    }
+  ],
+  "lang": "fr",
+  "sidebarDepth": 2
+}
 ---
 ## Formation
 

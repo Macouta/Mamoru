@@ -1,12 +1,19 @@
 ---
-title: Three Graces
-description: 
-meta:
-- name: description
-  content: 
-- name: keywords
-  content: 
-sidebarDepth: 0
+{
+  "title": "Three Graces",
+  "description": null,
+  "meta": [
+    {
+      "name": "description",
+      "content": null
+    },
+    {
+      "name": "keywords",
+      "content": null
+    }
+  ],
+  "sidebarDepth": 0
+}
 
 ---
 ## One grace 

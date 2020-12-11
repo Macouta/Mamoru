@@ -1,11 +1,16 @@
 ---
-title: Hardware
-description:
-meta:
-    - name: description
-    content:
-    - name: keywords
-content:
+{
+  "title": "Hardware",
+  "description": null,
+  "meta": [
+    {
+      "name": "description\ncontent:"
+    },
+    {
+      "name": "keywords\ncontent:"
+    }
+  ]
+}
 ---
 
 # Hardware

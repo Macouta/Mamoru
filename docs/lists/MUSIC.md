@@ -1,11 +1,18 @@
 ---
-title: Music
-description:
-meta:
-    - name: description
-      content:
-    - name: keywords
-      content:
+{
+  "title": "Music",
+  "description": null,
+  "meta": [
+    {
+      "name": "description",
+      "content": null
+    },
+    {
+      "name": "keywords",
+      "content": null
+    }
+  ]
+}
 ---
 # Music
 

@@ -1,11 +1,18 @@
 ---
-title: Esoterism
-description:
-meta:
-    - name: description
-      content:
-    - name: keywords
-      content:
+{
+  "title": "Esoterism",
+  "description": null,
+  "meta": [
+    {
+      "name": "description",
+      "content": null
+    },
+    {
+      "name": "keywords",
+      "content": null
+    }
+  ]
+}
 ---
 
 # Esoterism

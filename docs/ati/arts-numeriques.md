@@ -1,9 +1,11 @@
 ---
-sidebarDepth: 0
-title: Arts Numeriques
-lang: ''
-description: ''
-meta: []
+{
+  "sidebarDepth": 0,
+  "title": "Arts Numeriques",
+  "lang": "",
+  "description": "",
+  "meta": []
+}
 
 ---
 

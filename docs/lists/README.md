@@ -1,14 +1,23 @@
 ---
-title: references
-metaTitle: References
-description:
-meta:
-    - name: description
-      content:
-    - name: keywords
-      content:
-    - name: robots
-      content: 
+{
+  "title": "references",
+  "metaTitle": "References",
+  "description": null,
+  "meta": [
+    {
+      "name": "description",
+      "content": null
+    },
+    {
+      "name": "keywords",
+      "content": null
+    },
+    {
+      "name": "robots",
+      "content": null
+    }
+  ]
+}
 ---
 
 - [Books](./books.md)

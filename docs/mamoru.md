@@ -1,13 +1,22 @@
 ---
-title: Mamoru
-description:
-meta:
-    - name: description
-      content:
-    - name: keywords
-      content:
-    - name: robots
-      content: 
+{
+  "title": "Mamoru",
+  "description": null,
+  "meta": [
+    {
+      "name": "description",
+      "content": null
+    },
+    {
+      "name": "keywords",
+      "content": null
+    },
+    {
+      "name": "robots",
+      "content": null
+    }
+  ]
+}
 ---
 
 # Mamoru

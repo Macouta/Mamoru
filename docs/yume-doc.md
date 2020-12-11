@@ -1,12 +1,18 @@
-+++
-description = ""
-lang = ""
-title = ""
-[meta]
-content = []
-name = ""
+---
+{
+  "description": null,
+  "lang": null,
+  "title": null,
+  "meta": [
+    {
+      "name": {
+        "content": null
+      }
+    }
+  ]
+}
 
-+++
+---
 
 ## [Lexique](http://www.attrape-songes.com/forum/acces-libre-vous-etes-nouveaux/t6761/)
 

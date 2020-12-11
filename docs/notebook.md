@@ -1,13 +1,16 @@
 ---
-title: Notebook
-description:
-meta:
-
-* name: description
-content:
-* name: keywords
-content:
-
+{
+  "title": "Notebook",
+  "description": null,
+  "meta": [
+    {
+      "name": "description\ncontent:"
+    },
+    {
+      "name": "keywords\ncontent:"
+    }
+  ]
+}
 ---
 
 # Notebook

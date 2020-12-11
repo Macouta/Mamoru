@@ -1,9 +1,11 @@
 ---
-title: 'Combat Game '
-lang: ''
-description: ''
-meta: []
-sidebarDepth:
+{
+  "title": "Combat Game ",
+  "lang": "",
+  "description": "",
+  "meta": [],
+  "sidebarDepth": null
+}
 
 ---
 

@@ -1,13 +1,22 @@
 ---
-title: movies
-metaTitle: Movies
-description:
-meta:
-    - name: description
-      content:
-    - name: keywords
-      content:
-    - name: robots
-      content: 
+{
+  "title": "movies",
+  "metaTitle": "Movies",
+  "description": null,
+  "meta": [
+    {
+      "name": "description",
+      "content": null
+    },
+    {
+      "name": "keywords",
+      "content": null
+    },
+    {
+      "name": "robots",
+      "content": null
+    }
+  ]
+}
 ---
 

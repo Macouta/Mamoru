@@ -1,9 +1,15 @@
 ---
-meta:
-- name: description
-  content: ''
-- name: keywords
-  content: ''
-logs: []
-
+{
+  "meta": [
+    {
+      "name": "description",
+      "content": ""
+    },
+    {
+      "name": "keywords",
+      "content": ""
+    }
+  ],
+  "logs": []
+}
 ---

@@ -1,6 +1,8 @@
 ---
-title: Mercenary
-sidebarDepth: 0
+{
+  "title": "Mercenary",
+  "sidebarDepth": 0
+}
 
 ---
 ## renders

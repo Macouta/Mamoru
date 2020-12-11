@@ -1,11 +1,16 @@
 ---
-title: Unreleased
-description:
-meta:
-    - name: description
-    content:
-    - name: keywords
-    content:
+{
+  "title": "Unreleased",
+  "description": null,
+  "meta": [
+    {
+      "name": "description\ncontent:"
+    },
+    {
+      "name": "keywords\ncontent:"
+    }
+  ]
+}
 ---
 
 # Unreleased

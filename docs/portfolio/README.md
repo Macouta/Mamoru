@@ -1,14 +1,20 @@
 ---
-title: Portfolio
-description: A selection of work from diferent computer fields. From CGI to programming,
-  I thrive on the duality between creativity and technicity.
-meta:
-- name: description
-  content: ''
-- name: keywords
-  content: ''
-lang: en-US
-sidebarDepth: 0
+{
+  "title": "Portfolio",
+  "description": "A selection of work from diferent computer fields. From CGI to programming,\nI thrive on the duality between creativity and technicity.",
+  "meta": [
+    {
+      "name": "description",
+      "content": ""
+    },
+    {
+      "name": "keywords",
+      "content": ""
+    }
+  ],
+  "lang": "en-US",
+  "sidebarDepth": 0
+}
 
 ---
 ## ABOUT

@@ -1,9 +1,11 @@
 ---
-sidebarDepth: 0
-title: Poster Design
-lang: en-US
-description: Posters created for IUT student association.
-meta: []
+{
+  "sidebarDepth": 0,
+  "title": "Poster Design",
+  "lang": "en-US",
+  "description": "Posters created for IUT student association.",
+  "meta": []
+}
 
 ---
 ## JPO IUT INFO

@@ -1,14 +1,23 @@
 ---
-title: videogames
-metaTitle: Video Games
-description: 
-meta:
-- name: description
-  content: 
-- name: keywords
-  content: 
-- name: robots
-  content: 
+{
+  "title": "videogames",
+  "metaTitle": "Video Games",
+  "description": null,
+  "meta": [
+    {
+      "name": "description",
+      "content": null
+    },
+    {
+      "name": "keywords",
+      "content": null
+    },
+    {
+      "name": "robots",
+      "content": null
+    }
+  ]
+}
 
 ---
 # Video games

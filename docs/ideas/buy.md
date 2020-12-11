@@ -1,9 +1,11 @@
 ---
-title: BUY
-lang: en
-description: ''
-meta: []
-sidebarDepth: 
+{
+  "title": "BUY",
+  "lang": "en",
+  "description": "",
+  "meta": [],
+  "sidebarDepth": null
+}
 
 ---
 # Buy list

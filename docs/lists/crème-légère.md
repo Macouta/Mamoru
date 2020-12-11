@@ -1,9 +1,11 @@
 ---
-title: Crème Légère
-lang: ''
-description: ''
-meta: []
-sidebarDepth: 
+{
+  "title": "Crème Légère",
+  "lang": "",
+  "description": "",
+  "meta": [],
+  "sidebarDepth": null
+}
 
 ---
 # La Crème Légère

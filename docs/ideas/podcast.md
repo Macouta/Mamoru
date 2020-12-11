@@ -1,10 +1,11 @@
 ---
-sidebarDepth: 0
-title: Podcast
-lang: fr
-description: ''
-meta: []
-
+{
+  "sidebarDepth": 0,
+  "title": "Podcast",
+  "lang": "fr",
+  "description": "",
+  "meta": []
+}
 ---
 
 ## Podcast de soirée
