@@ -20,7 +20,6 @@
 }
 ---
 
-- [Books](./books.md)
-- [Video games](./videogames.md)
-- [Movies](./movies.md)
-- [Shows](./shows.md)
+
+- [Hardware](./hardware.md)
+- [Software](./software.md)

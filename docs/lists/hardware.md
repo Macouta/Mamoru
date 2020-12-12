@@ -15,7 +15,7 @@
 
 # Hardware
 
-## PC Hardware
+## PC
 
 * Processor : Intel Core i7 8700K clocked at 3.70 GHz
 * Motherboard : Z370 GAMING PRO CARBON (MS-7B45) 2.0
@@ -25,28 +25,16 @@
 * Keyboard : Corsair Gaming K55 RGB
 * Screens : IIYAMA 24,5" LED - G-MASTER G2530HSU-B1 Black Hawk x2
 
-## DNS Config
+## Laptop
 
-```
-@	IN SOA dns113.ovh.net. tech.ovh.net. (2019111600 86400 3600 3600000 300)
-                          IN NS     ns113.ovh.net.
-                          IN NS     dns113.ovh.net.
-                          IN MX     1 mx1.mail.ovh.net.
-                          IN MX     100 mx3.mail.ovh.net.
-                          IN MX     5 mx2.mail.ovh.net.
-                          IN A      164.132.235.17
-                          IN A      185.199.108.153
-                      600 IN TXT    "v=spf1 include:mx.ovh.com ~all"
-                          IN TXT    "1|www.macouta.fr"
-_autodiscover._tcp        IN SRV    0 0 443 mailconfig.ovh.net.
-_imaps._tcp               IN SRV    0 0 993 ssl0.ovh.net.
-_submission._tcp          IN SRV    0 0 465 ssl0.ovh.net.
-autoconfig                IN CNAME  mailconfig.ovh.net.
-autodiscover              IN CNAME  mailconfig.ovh.net.
-ftp                       IN CNAME  macouta.fr.
-imap                      IN CNAME  ssl0.ovh.net.
-mail                      IN CNAME  ssl0.ovh.net.
-pop3                      IN CNAME  ssl0.ovh.net.
-smtp                      IN CNAME  ssl0.ovh.net.
-www                       IN CNAME  macouta.github.io.
-```
+* Processor : AMD Ryzen 5 2500U
+* Memory : 8,00 Go
+* Graphic card ; Radeon Vega 8 2.00GHz
+* Hard Drives : 256GB SSD
+
+## NAS
+
+* Rasberry PI 4B RAM 4GB
+* X835 12V 3.5 inch SATA HDD Storage Expansion Board
+* X735 V2.1 Safe Shutdown Power Management & Auto Cooling Expansion Board
+* HDD 3TB CMR Toshiba P300

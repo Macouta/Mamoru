@@ -19,5 +19,4 @@
 * TreeSize, Windows tree viewer
 * GitKraken, git UI
 * Mailspring, email client
-* Hyper, Electron terminal
 * WSL, Windows Subsystem Linux

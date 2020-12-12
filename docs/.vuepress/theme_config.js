@@ -44,16 +44,16 @@ module.exports = {
     },
     search: false,
     lastUpdated: 'updated',
-
-    repo: 'vuejs/vuepress',
-    // Customising the header label
-    // Defaults to "GitHub"/"GitLab"/"Bitbucket" depending on `themeConfig.repo`
-    repoLabel: 'Contribute!',
+    
 
     editLinks: true,
     // custom text for edit link. Defaults to "Edit this page"
-    editLinkText: 'Help us improve this page!',
+    editLinkText: 'edit page',
     // if your docs are in a different repo from your main project:
+    // root of the doc:
+    docsDir: 'docs',
+    // branch of the doc:
+    docsBranch: 'master',
     // default value is true. Allows to hide next page links on all pages
     nextLinks: false,
     // default value is true. Allows to hide prev page links on all pages
