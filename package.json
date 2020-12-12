@@ -25,6 +25,7 @@
     "axios": "^0.19.0",
     "vue": "^2.6.12",
     "vue-server-renderer": "^2.6.12",
+    "vue-template-compiler": "^2.6.12",
     "vuepress-plugin-clean-urls": "^1.0.3",
     "vuepress-plugin-img-lazy": "^1.0.0"
   }
