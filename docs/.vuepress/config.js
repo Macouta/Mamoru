@@ -1,4 +1,4 @@
-var theme_config = require("./theme"); 
+var theme_config = require("./theme_config"); 
 
 module.exports = {
   base: "",
