@@ -14,6 +14,13 @@ sections:
   match: "**/*"
   templates:
   - default
+- type: directory
+  path: docs/ideas
+  label: Ideas
+  create: all
+  match: "**/*"
+  templates:
+  - default
 - type: heading
   label: Journaux
 - type: document
