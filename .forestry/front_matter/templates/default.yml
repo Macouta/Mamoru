@@ -52,12 +52,6 @@ fields:
   label: meta
   description: Meta tags (useful for SEO).
 pages:
-- docs/arts-numeriques.md
-- docs/buy.md
-- docs/buy.md
-- docs/combat-game.md
-- docs/crème-légère.md
-- docs/podcast.md
 - docs/portfolio/README.md
 - docs/portfolio/cg/poster-design.md
 - docs/portfolio/cv.md

@@ -1,25 +1,27 @@
 ---
-{
-  "title": "references",
-  "metaTitle": "References",
-  "description": null,
-  "meta": [
-    {
-      "name": "description",
-      "content": null
-    },
-    {
-      "name": "keywords",
-      "content": null
-    },
-    {
-      "name": "robots",
-      "content": null
-    }
-  ]
-}
+title: Lists
+metaTitle: References
+description: ''
+meta:
+- name: description
+  content: 
+- name: keywords
+  content: 
+- name: robots
+  content: 
+sidebarDepth: 2
+
 ---
+# Lists
 
+Some **useful** lists created to compensate my little memory when I need it the most, or to have a plugins/addons base when I reinstall a software.
 
-- [Hardware](./hardware.md)
-- [Software](./software.md)
+## computer related
+
+* [Hardware](./hardware.md)
+* [Software](./software.md)
+
+## culture
+
+* [SensCritique ](https://www.senscritique.com/Macouta)(movies | shows | books | comics | video games)
+* [Music](./music.md)
