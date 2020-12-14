@@ -4,10 +4,12 @@
   "description": null,
   "meta": [
     {
-      "name": "description\ncontent:"
+      "name": "description",
+      "content": null
     },
     {
-      "name": "keywords\ncontent:"
+      "name": "keywords",
+      "content": null
     }
   ]
 }

@@ -1,3 +1,19 @@
+---
+{
+  "title": "Art",
+  "description": null,
+  "meta": [
+    {
+      "name": "description",
+      "content": null
+    },
+    {
+      "name": "keywords",
+      "content": null
+    }
+  ]
+}
+---
 # Artists
 - Thrin Xuan
 - Junji Ito
