@@ -7,6 +7,13 @@ sections:
 - type: document
   path: docs/README.md
   label: Home
+- type: directory
+  path: docs/lists
+  label: Lists
+  create: all
+  match: "**/*"
+  templates:
+  - default
 - type: heading
   label: Journaux
 - type: document
