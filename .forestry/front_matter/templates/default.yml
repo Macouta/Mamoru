@@ -52,6 +52,7 @@ fields:
   label: meta
   description: Meta tags (useful for SEO).
 pages:
+- docs/lists/backlog.md
 - docs/portfolio/README.md
 - docs/portfolio/cg/poster-design.md
 - docs/portfolio/cv.md
